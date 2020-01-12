@@ -10,7 +10,7 @@ export const nextEditions = ((today) => {
             date: new Date(2020, 0, 25),
             displayDate: 'zaterdag 25 januari 2020',
             registrationStart: 'zondag 12 januari 2020',
-            registrationUrl: 'https://www.dok.info/jeugd/coderdojo.html'
+            registrationUrl: 'https://dok.op-shop.nl/793/coderdojo/25-01-2020'
         },
         {
             date: new Date(2020, 1, 22),

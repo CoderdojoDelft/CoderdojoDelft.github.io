@@ -51,8 +51,7 @@ export class NextEditionPage extends Component {
                 <p>We hebben een beperkt aantal laptops te leen. Laat het ons via het inschrijfformulier weten als je daarvan gebruik wilt maken.</p>
                 <h3>Inschrijven</h3>
                 <p>Voor deze Dojo hebben we maar beperkt plek! Er is ruimte voor een maximaal aantal deelnemers. Elke deelnemer heeft zijn eigen ticket nodig, en je kunt maximaal twee tickets reserveren. Als de plekken voor deze CoderDojo bezet zijn, kun je je naam op de wachtlijst zetten, we nemen dan contact met je op zodra er een plek vrijkomt. Laat het ons dus ook weten als je verhinderd bent.</p>
-                <p>Vanaf januari 2020 wordt de inschrijving verzorgt door DOK. Indien onderstaande scherm niet werkt, kun je je aanmelden <a href={nextEdition.registrationUrl} target="_blank" rel="noopener noreferrer">via deze link naar DOK</a></p>
-                <iframe title="registration" src={nextEdition.registrationUrl} width="100%" height="500" frameBorder="0" marginWidth="5" marginHeight="5" />
+                <p>Vanaf januari 2020 wordt de inschrijving verzorgt door DOK. <a href={nextEdition.registrationUrl} target="_blank" rel="noopener noreferrer">Klik hier</a> om naar de inschrijvingspagina te gaan.</p>
                 <p><i>Is de Dojo vol, of kun je niet op die dag? Je kunt ook kijken of er plek is bij een CoderDojo in de buurt: <a href="http://www.coderdojo-zoetermeer.nl" target="_blank" rel="noopener noreferrer">CoderDojo Zoetermeer</a>,  <a href="http://www.coderdojo-denhaag.nl" target="_blank" rel="noopener noreferrer">CoderDojo Den Haag</a> of <a href="http://www.coderdojo-rotterdam.nl" target="_blank" rel="noopener noreferrer">CoderDojo Rotterdam</a>.</i></p>
             </React.Fragment>
         );
