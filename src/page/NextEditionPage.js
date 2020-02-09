@@ -31,7 +31,6 @@ export class NextEditionPage extends Component {
                     <li>Arduino</li>
                     <li>Python</li>
                     <li>Websites</li>
-                    <li>3D printer</li>
                 </ul>
                 <p>Kortom, je mag komen met elk project waar je eerder aan gewerkt hebt. Ben je nog nooit geweest? Dan hebben we opdrachten voor je klaarliggen en helpen we je op weg. Maar je mag natuurlijk ook zelf iets verzinnen. Misschien kun je alvast een karakter tekenen voor in een spel dat je wilt maken, of een filmpje zoeken voor een website die je wilt maken.</p>
                 <p><Link to={routes.whatWeDo.url}>Hier</Link> vind je meer details over wat je op een CoderDojo kunt doen.</p>

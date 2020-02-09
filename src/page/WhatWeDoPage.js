@@ -17,8 +17,9 @@ export class WhatWeDoPage extends Component {
                 <p>De TU Delft heeft een online cursus gemaakt voor Scratch. Hiremee leer je in 6 weken precies hoe Scratch werkt. Deze cursus vind je op <a href="https://www.edx.org/course/scratch-programmeren-voor-kinderen-8" target="_blank" rel="noopener noreferrer">edX</a></p>
                 <p>In de verzameling links onderaan deze pagina, vind je veel Scratch voorbeelden</p>
                 <h3>3D printer (ThinkerCAD)</h3>
-                <p>We hebben een 3D printer waarop je je eigen ontwerpen kunt printen! Een ontwerp kun je maken met <a href="https://www.tinkercad.com/" target="_blank" rel="noopener noreferrer">TinkerCad</a>. Een goede handeleiding vind je <a href="https://coderdojo-nijmegen.nl/wp-content/uploads/2015/07/tinkercad_guide_nl.pdf" target="_blank" rel="noopener noreferrer">hier</a>. Als je Engels kunt, kun je ook de tutorial in TinkerCad volgen.</p>
-                <p>Als je je ontwerp als .OBJ of .STL bestand opslaat (onder de knop 'Export'), dan kun je het bij de CoderDojo laten printen.</p>
+                <p>Helaas is onze 3D printer op dit moment stuk. We zijn aan het nadenken of we een nieuwe gaan aanschaffen. We houden jullie op de hoogte!</p>
+                {/* <p>We hebben een 3D printer waarop je je eigen ontwerpen kunt printen! Een ontwerp kun je maken met <a href="https://www.tinkercad.com/" target="_blank" rel="noopener noreferrer">TinkerCad</a>. Een goede handeleiding vind je <a href="https://coderdojo-nijmegen.nl/wp-content/uploads/2015/07/tinkercad_guide_nl.pdf" target="_blank" rel="noopener noreferrer">hier</a>. Als je Engels kunt, kun je ook de tutorial in TinkerCad volgen.</p>
+                <p>Als je je ontwerp als .OBJ of .STL bestand opslaat (onder de knop 'Export'), dan kun je het bij de CoderDojo laten printen.</p> */}
                 <h3>Websites maken (HTML)</h3>
                 <p>Tijdens de CoderDojo kun je een website bouwen die ook echt online te zien is. Dit doen we op <a href="http://neocities.org" target="_blank" rel="noopener noreferrer">Neocities</a>. De sushi met instructies vind je <a href="https://coderdojodelft.gitbooks.io/beginner-html-css-sushi-nl/content/nl/" target="_blank" rel="noopener noreferrer">hier</a>.</p>
                 <h3>Python</h3>
