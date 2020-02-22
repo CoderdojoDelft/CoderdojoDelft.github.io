@@ -29,6 +29,11 @@ export const routes = {
         title: 'Extra info',
         weight: 50
     },
+    material: {
+        url: '/material',
+        title: 'Leuke opdrachten',
+        weight: 55
+    },
     mentors: {
         url: '/mentoren',
         title: 'Mentor worden',

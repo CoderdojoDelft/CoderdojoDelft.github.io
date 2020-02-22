@@ -11,6 +11,7 @@ import { HomePage } from './page/HomePage';
 import { MentorPage } from './page/MentorPage';
 import { NextEditionPage } from './page/NextEditionPage';
 import { WhatWeDoPage } from './page/WhatWeDoPage';
+import { MaterialPage} from './page/MaterialPage';
 import { routes } from './routes';
 import { GlobalStyle } from './style/global-style';
 import { AgendaPage } from './page/AgendaPage';
@@ -37,6 +38,7 @@ export class App extends Component {
                             <Route exact path={routes.aboutUs.url} component={ AboutUsPage } />
                             <Route exact path={routes.extraInfo.url} component={ ExtraInfoPage } />
                             <Route exact path={routes.mentors.url} component={ MentorPage } />
+                            <Route exact path={routes.material.url} component={ MaterialPage} />
                         </Content>
                     </Container>
                 </React.Fragment>
