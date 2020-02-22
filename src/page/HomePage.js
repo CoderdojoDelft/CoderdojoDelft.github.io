@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { Page } from '../element/Page';
 import { PageBody } from '../element/PageBody';
 import { PageTitle } from '../element/PageTitle';
-import { nextEdition } from '../content/next-edition';
+import { nextEdition } from '../content/editions';
 import { routes } from '../routes';
 
 export class HomePage extends Component {

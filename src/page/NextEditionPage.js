@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { PageTitle } from '../element/PageTitle';
 import { Page } from '../element/Page';
 import { PageBody } from '../element/PageBody';
-import { nextEdition } from '../content/next-edition';
+import { nextEdition } from '../content/editions';
 import { routes } from '../routes';
 
 export class NextEditionPage extends Component {
@@ -58,6 +58,8 @@ export class NextEditionPage extends Component {
 
     render() {
         let content;
+
+        console.log(nextEdition)
 
         if (nextEdition) {
             content = this.dojos();

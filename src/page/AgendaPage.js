@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { PageTitle } from '../element/PageTitle';
 import { Page } from '../element/Page';
 import { PageBody } from '../element/PageBody';
-import { nextEditions } from '../content/next-edition';
+import { nextEditions } from '../content/editions';
 import { routes } from '../routes';
 
 export class AgendaPage extends Component {
