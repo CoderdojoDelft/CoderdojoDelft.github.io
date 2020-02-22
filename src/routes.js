@@ -31,7 +31,7 @@ export const routes = {
     },
     material: {
         url: '/material',
-        title: 'Leuke opdrachten',
+        title: 'Aan de slag!',
         weight: 55
     },
     mentors: {
