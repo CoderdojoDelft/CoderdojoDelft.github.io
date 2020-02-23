@@ -15,32 +15,79 @@ export class MaterialPage extends Component {
                 <PageBody>
                     <Tabs>
                         <TabList>
-                            <Tab>Scratch</Tab>
-                            <Tab>Python</Tab>
-                            <Tab>HTML</Tab>
-                            <Tab>Microbit/Arduino</Tab>
-                            <Tab>3D printer</Tab>
-                            <Tab>Boeken</Tab>
+                            <Tab><h3>Scratch</h3></Tab>
+                            <Tab><h3>Python</h3></Tab>
+                            <Tab><h3>HTML</h3></Tab>
+                            <Tab><h3>Microbit/Arduino</h3></Tab>
+                            <Tab><h3>3D printer</h3></Tab>
+                            <Tab><h3>Boeken</h3></Tab>
                         </TabList>
 
                         <TabPanel>
                             <h2>Scratch opdrachten</h2>
                             <p>Hieronder vind je links naar de opdrachten die we voor Scratch gebruiken. Je kunt dus thuis gewoon verder werken of aan iets nieuws beginnen!</p>
+                            <p>De hieronder vermelde materialen zijn ontwikkeld door verschillende CoderDojo-groepen in Nederland en België.</p>
+                            <h3>Beginnen met Scratch</h3>
+                            <p>Om te beginnen met Scratch hoef je niets te installeren, het staat online. Ga naar <a href="http://scratch.mit.edu" target="_blank" rel="noopener noreferrer">de website van Scratch</a> . De eerste keer moet je een gebruikersnaamm aanmaken (vraag je ouders je te helpen). Daarmee kun je daarna weer inloggen en al je oude projecten zien.</p>
+
+                            <h3>Je eerste project</h3>
+
+                            <h4>De Draak</h4>
+                            <p>De draak is verdwaald in de stad. Er komt een bus langs. Kun jij de draak de passagiers laten schrikken? <a href="https://drive.google.com/file/d/0B-5aZIp2Sz0yVUVKYTQ0cVQ1b3c/view" target="_blank" rel="noopener noreferrer">Hier</a> vind je de beschrijving.</p>
+
+                            <h4>Spooky spel (De heks)</h4>
+                            <p>Rondvliegen als een heks en punten krijgen van de vleermuizen. Maar pas op, soms nemen ze punten af...<br></br>Je vindt de beschrijving <a href="http://www.codekids.nl/scratch-spooky-spel-3-0-voor-coderdojo/" target="_blank"rel="noopener noreferrer">hier</a>. De sprite van de heks uit de vorige versie van Scratch kun je hier ook vinden. Open een nieuw project met het bestand dat je op de site kunt downloaden.</p>
+
+                            <h4>Analoge klok</h4>
+                            <p>Maak je eigen klok! <a href="https://drive.google.com/drive/folders/1Q_wJ2WQjFax9Ecx3nwR_hJ6DGu2U2cRI">Hier</a> vind je de beschrijving en een aantal sprites om mee te beginnen</p>
+                            
+                            <h4>Maanlander (50 jaar maanlanding 2019)</h4>
+                            <p>Op 20 juli 1969 zette Neil Armstrong de eerste stap op de maan. Maak nu je eigen maanlandingsspel! <a href="https://coderdojodelft.gitbooks.io/scratch-moonhack-2019/content/nl/" target="_blank"rel="noopener noreferrer">Hier</a> vind je de beschrijving.</p>
+
+                            <h4>Pong</h4>
+                            <p>Pong is één van de allereerste computerspellen dat werd gemaakt. En het is nog steeds leuk! En je kunt het zelf maken met <a href="https://drive.google.com/file/d/0B-5aZIp2Sz0yRUFRVkFYZzdXRlU/view"target="_blank"rel="noopener noreferrer">deze</a> uitleg.</p>
+
+                            <h4>Muziek maken</h4>
+                            <p>Houd je van muziek en speel je zelf een instrument? Ook van je computer kun je een muziekinstrument maken! Hiervoor gebruik je de Muziek-uitbreiding van Scratch. <a href="https://drive.google.com/file/d/1uuPJ-wixa6pC3rImci5FzTGXpNuFgE2C/view" target="_blank"rel="noopener noreferrer">Deze instructie</a> legt je uit hoe je dat doet</p>
+
+                            <h3>Iets moeilijker</h3>
+                            <h4>Racebaan</h4>
+                            <p>Al heel lang worden er autorace spelletjes gespeeld op de computer. Maak je eigen racespel met <a href="https://drive.google.com/file/d/0B-5aZIp2Sz0yY0JocVk5bnRieWM/view" target="_blank"rel="noopener noreferrer">deze uitleg</a>.</p>
+                            
+                            <h4>Flappy bird</h4>  
+                            <p>Je bent een vogel, maar valt langzaam naar beneden. Blijf vliegen en ontwijk ondertussen allelei obstakels. Maak dit superspannende spel <a href="http://scratchweb.nl/sites/default/files/bijlage/Scratchweb/Leskaart%20Flappy%20Bird.pdf" target="_blank"rel="noopener noreferrer">zo</a></p>  
+
+                            <h4>Snake</h4>
+                            <p>Snake was een superpopulair spelletje op de oude Nokia telefoons. Je ouders kennen het vast. Maak dit spel voor hen behulp van <a href="http://scratchweb.nl/sites/default/files/bijlage/Scratchweb/Leskaart%20Snake_0.pdf" target="_blank"rel="noopener noreferrer">dit voorbeeld</a>.</p>
+
+                            <h3>Websites met veel projecten</h3>
+                            <h4>CoderDojo Zoetermeer</h4>
+                            <p>De CoderDojo van Zoetermeer heeft een hele verzameling Scratch opdrachten. En ze delen ze met iedereen via <a href="https://drive.google.com/drive/folders/0B-NwRJ9NsROUbnByYlgyOHgxUFE" target="_blank"rel="noopener noreferrer">Google Drive</a>.</p>
+
+                            <h4>Raspberry Pi Foundation</h4>
+                            <p>Deze organisatie werkt wereldwijd en heeft een steeds groeiende verzameling Scratch opdrachten. En een groot aantal daarvan is ook in het Nederlands vertaald. Kijk <a href="https://projects.raspberrypi.org/nl-NL/projects?software%5B%5D=scratch" target="_blank"rel="noopener noreferrer">hier</a> eens als je iets nieuws zoekt. Houd de website in de gaten, er komt regelmatig iets nieuws bij.</p>
                         </TabPanel>
                         <TabPanel>
-                            Python opdrachten
+                            <h2>Python opdrachten</h2>
                         </TabPanel>
                         <TabPanel>
-                            Website maken
+                            <h2>Website maken</h2>
                         </TabPanel>
                         <TabPanel>
-                            Microbit/Arduino
+                            <h2>Microbit/Arduino</h2>
                         </TabPanel>
                         <TabPanel>
-                            3D printer / ThinkerCad
+                            <h2>3D printer / ThinkerCad</h2>
                         </TabPanel>
                         <TabPanel>
-                            Leuke programmeerboeken
+                            <h2>Progammeerboeken</h2>
+                            <p>Op internet is natuurlijk ontzettend veel informatie te vinden over programmeren en vind je ook allerlei leuke opdrachten. Maar er zijn ook een aantal leuke boeken met opdracten en uitleg. Bij DOK kun je ook veel vinden, in een boekenkast vlakbij de CoderDojo. Superhandig!</p>
+
+                            <ul>
+                                <li>
+                                    Booek 1
+                                </li>
+                            </ul>
                         </TabPanel>
                     </Tabs>
 

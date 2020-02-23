@@ -36,7 +36,6 @@ export class HomePage extends Component {
                     <p>Ook op andere plekken in Nederland zijn CoderDojo’s gestart! Geen plek meer in Delft? Meld je dan aan bij een van de andere CoderDojo’s in de buurt:</p>
                     <ul>
                         <li><a href="http://www.coderdojo-zoetermeer.nl/" target="_blank" rel="noopener noreferrer">CoderDojo Zoetermeer</a></li>
-                        <li><a href="http://www.coderdojo-westland.nl/" target="_blank" rel="noopener noreferrer">CoderDojo Westland</a></li>
                         <li><a href="http://www.coderdojo-denhaag.nl/" target="_blank" rel="noopener noreferrer">CoderDojo Den Haag</a></li>
                         <li><a href="http://coderdojo-rotterdam.nl/" target="_blank" rel="noopener noreferrer">CoderDojo Rotterdam</a></li>
                     </ul>

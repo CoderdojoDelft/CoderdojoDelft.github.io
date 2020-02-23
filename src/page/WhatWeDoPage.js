@@ -13,7 +13,7 @@ export class WhatWeDoPage extends Component {
                 <p>Bij CoderDojo gaan we programmeren, maar dat had je waarschijnlijk al begrepen. Er zijn verschillende dingen die je kunt doen. Hieronder vind je een overzichtje. Met meteen wat links, waarmee je ook thuis aan de slag kunt.</p>
                 <p>Iedereen tussen de 8 en 14 is welkom. Als je nog nooit geprogrammeerd hebt, hebben we een verzameling opdrachten liggen en helpen we je op weg. En misschien heb je zelf al een idee van iets wat je graag wilt maken. Ook daarmee kunnen we je helpen. En heb je al veel ervaring, maar wil je nog meer leren? Ook dan ben je welkom, we helpen je graag!</p>
                 <h3>Scratch</h3>
-                <p>Scratch is een geweldige tool om te beginnen met programmeren.Met Scratch programmeer je je eigen interactieve verhalen, spellen en animaties. Ga naar <a href="http://scratch.mit.edu" target="_blank" rel="noopener noreferrer">scratch.mit.edu</a> om een eigen project te starten.</p>
+                <p>Scratch is een geweldige tool om te beginnen met programmeren. Met Scratch programmeer je je eigen interactieve verhalen, spellen en animaties. Ga naar <a href="http://scratch.mit.edu" target="_blank" rel="noopener noreferrer">scratch.mit.edu</a> om een eigen project te starten.</p>
                 <p>De TU Delft heeft een online cursus gemaakt voor Scratch. Hiremee leer je in 6 weken precies hoe Scratch werkt. Deze cursus vind je op <a href="https://www.edx.org/course/scratch-programmeren-voor-kinderen-8" target="_blank" rel="noopener noreferrer">edX</a></p>
                 <p>In de verzameling links onderaan deze pagina, vind je veel Scratch voorbeelden</p>
                 <h3>3D printer (ThinkerCAD)</h3>

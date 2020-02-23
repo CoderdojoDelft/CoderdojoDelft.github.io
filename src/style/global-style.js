@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
-import { color } from './variables';
+import { color, font } from './variables';
 import { rebasNeue } from './fonts/rebas-neue';
 
 export const GlobalStyle = createGlobalStyle`
@@ -51,6 +51,12 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+h4 {
+	color: ${color.yellow.selective};
+	font-weight: bold
+	font-seize: ${font.size.n3}
 }
 
 ${rebasNeue()};
