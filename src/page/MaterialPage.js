@@ -20,7 +20,7 @@ export class MaterialPage extends Component {
                             <Tab><h3>HTML</h3></Tab>
                             <Tab><h3>Microbit/Arduino</h3></Tab>
                             <Tab><h3>3D printer</h3></Tab>
-                            <Tab><h3>Boeken</h3></Tab>
+                            <Tab><h3>Websites/boeken</h3></Tab>
                         </TabList>
 
                         <TabPanel>
@@ -60,15 +60,24 @@ export class MaterialPage extends Component {
                             <h4>Snake</h4>
                             <p>Snake was een superpopulair spelletje op de oude Nokia telefoons. Je ouders kennen het vast. Maak dit spel voor hen behulp van <a href="http://scratchweb.nl/sites/default/files/bijlage/Scratchweb/Leskaart%20Snake_0.pdf" target="_blank"rel="noopener noreferrer">dit voorbeeld</a>.</p>
 
-                            <h3>Websites met veel projecten</h3>
-                            <h4>CoderDojo Zoetermeer</h4>
-                            <p>De CoderDojo van Zoetermeer heeft een hele verzameling Scratch opdrachten. En ze delen ze met iedereen via <a href="https://drive.google.com/drive/folders/0B-NwRJ9NsROUbnByYlgyOHgxUFE" target="_blank"rel="noopener noreferrer">Google Drive</a>.</p>
-
-                            <h4>Raspberry Pi Foundation</h4>
-                            <p>Deze organisatie werkt wereldwijd en heeft een steeds groeiende verzameling Scratch opdrachten. En een groot aantal daarvan is ook in het Nederlands vertaald. Kijk <a href="https://projects.raspberrypi.org/nl-NL/projects?software%5B%5D=scratch" target="_blank"rel="noopener noreferrer">hier</a> eens als je iets nieuws zoekt. Houd de website in de gaten, er komt regelmatig iets nieuws bij.</p>
+                            <p><b>Meer: </b>Kijk voor grote verzamelingen met opdracht ook op het tabblad 'Websites/boeken'!</p>
                         </TabPanel>
                         <TabPanel>
                             <h2>Python opdrachten</h2>
+                            <p>Python is een programmeertaal die je voor bijna alles kunt gebruiken. Je kunt er mee rekenen, tekenen, spelletjes maken, zelfs Instagram is ermee gemaakt!</p>
+                            <p>Als je veel met Python wilt gaan doen, kun je het op je computer installeren. Maar dat gaat helaas niet altijd even gemakkelijk.<br></br>Gelukkig zijn er ook website waarop je in Python kunt programmeren. Bij CoderDojo Delft gebruiken we meestal <a href="https://repl.it/languages/python3" target="_blank" rel="noopener noreferrer">repl.it</a>. In de opdrachten kun je soms ook <a href="https://trinket.io/" target="_blank" rel="noopener noreferrer">trinket.io</a> tegenkomen. Dit is ook een prima website.</p>
+                            <p>Goed om te weten: wij gebruiken altijd Python versie 3.X.</p>
+
+                            <h4>Nummer raden</h4>
+                            <p>Leer de basisbegrippen van Python en maak je eerste spelletje! Kun jij het getal raden? Van <a href="https://drive.google.com/file/d/0B5ue9rJQ-LwBaVprWVBkSzVFUDA/view" target="_blank" rel="noopener noreferrer">de beschrijving</a> kun je kaart 1 overslaan, want we gaan Python niet installenren (zie hierboven). En helaas staat er een foutje in de code bij punt 2 op kaart 3. Kun jij die vinden?</p>
+                            
+                            <h4>Palindromen zoeken</h4>
+                            <p>Palindromen zijn woorden die van achter naar voren gelezen hetzelfde zijn als wanneer je ze gewoon leest. Lepel is bijvoorbeeld een palindroom. Met <a href="https://drive.google.com/file/d/0B5ue9rJQ-LwBdGFVeFpHQW5QZFU/view">deze opdracht</a> leer je hoe je zulke woorden kunt vinden in een lange lijst met woorden.</p>
+
+                            <h4>Tekenen met Turtle</h4>
+                            <p>Automatisch mooie figuren tekeken. Dit heb je vast wel eens gedaan in Scratch. Leer <a href="https://drive.google.com/file/d/0B1R4ph67gGq2MGlPX24wdmM0SGM/edit"target="_blank" rel="noopener noreferrer">hier</a> hoe je dat doet!</p>
+
+                            <p><b>Meer: </b>Kijk voor grote verzamelingen met opdracht ook op het tabblad 'Websites/boeken'!</p>
                         </TabPanel>
                         <TabPanel>
                             <h2>Website maken</h2>
@@ -80,8 +89,18 @@ export class MaterialPage extends Component {
                             <h2>3D printer / ThinkerCad</h2>
                         </TabPanel>
                         <TabPanel>
-                            <h2>Progammeerboeken</h2>
+                            <h3>Websites met veel projecten</h3>
+                        
+                            <h4>Raspberry Pi Foundation</h4>
+                            <p>Deze organisatie werkt wereldwijd en heeft een steeds groeiende verzameling Scratch opdrachten. En een groot aantal daarvan is ook in het Nederlands vertaald. Kijk <a href="https://projects.raspberrypi.org/nl-NL/projects" target="_blank"rel="noopener noreferrer">hier</a> eens als je iets nieuws zoekt. Houd de website in de gaten, er komt regelmatig iets nieuws bij.</p>
+                            
+                            <h4>CoderDojo Zoetermeer</h4>
+                            <p>De CoderDojo van Zoetermeer heeft een hele verzameling Scratch opdrachten. En ze delen ze met iedereen via <a href="https://drive.google.com/drive/folders/0B-NwRJ9NsROUdk9iVTJaSzBldDA" target="_blank"rel="noopener noreferrer">Google Drive</a>.</p>
+
+                            <h3>Programmeerboeken</h3>
                             <p>Op internet is natuurlijk ontzettend veel informatie te vinden over programmeren en vind je ook allerlei leuke opdrachten. Maar er zijn ook een aantal leuke boeken met opdracten en uitleg. Bij DOK kun je ook veel vinden, in een boekenkast vlakbij de CoderDojo. Superhandig!</p>
+
+
 
                             <ul>
                                 <li>
