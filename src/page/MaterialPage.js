@@ -17,10 +17,9 @@ export class MaterialPage extends Component {
                         <TabList>
                             <Tab><h3>Scratch</h3></Tab>
                             <Tab><h3>Python</h3></Tab>
-                            <Tab><h3>HTML</h3></Tab>
                             <Tab><h3>Microbit/Arduino</h3></Tab>
-                            <Tab><h3>3D printer</h3></Tab>
-                            <Tab><h3>Websites/boeken</h3></Tab>
+                            <Tab><h3>Van alles wat</h3></Tab>
+                            <Tab><h3>Boeken</h3></Tab>
                         </TabList>
 
                         <TabPanel>
@@ -60,7 +59,7 @@ export class MaterialPage extends Component {
                             <h4>Snake</h4>
                             <p>Snake was een superpopulair spelletje op de oude Nokia telefoons. Je ouders kennen het vast. Maak dit spel voor hen behulp van <a href="http://scratchweb.nl/sites/default/files/bijlage/Scratchweb/Leskaart%20Snake_0.pdf" target="_blank"rel="noopener noreferrer">dit voorbeeld</a>.</p>
 
-                            <p><b>Meer: </b>Kijk voor grote verzamelingen met opdracht ook op het tabblad 'Websites/boeken'!</p>
+                            <p><b>Meer: </b>Kijk voor grote verzamelingen met opdracht ook op het tabblad <i>Van alles wat</i>!</p>
                         </TabPanel>
                         <TabPanel>
                             <h2>Python opdrachten</h2>
@@ -69,27 +68,48 @@ export class MaterialPage extends Component {
                             <p>Goed om te weten: wij gebruiken altijd Python versie 3.X.</p>
 
                             <h4>Nummer raden</h4>
-                            <p>Leer de basisbegrippen van Python en maak je eerste spelletje! Kun jij het getal raden? Van <a href="https://drive.google.com/file/d/0B5ue9rJQ-LwBaVprWVBkSzVFUDA/view" target="_blank" rel="noopener noreferrer">de beschrijving</a> kun je kaart 1 overslaan, want we gaan Python niet installenren (zie hierboven). En helaas staat er een foutje in de code bij punt 2 op kaart 3. Kun jij die vinden?</p>
+                            <p>Leer de basisbegrippen van Python en maak je eerste spelletje! Kun jij het getal raden? Van <a href="https://drive.google.com/file/d/0B5ue9rJQ-LwBaVprWVBkSzVFUDA/view" target="_blank" rel="noopener noreferrer">de beschrijving</a> kun je kaart 1 overslaan, want we gaan Python niet installeren (zie hierboven). En helaas staat er een foutje in de code bij punt 2 op kaart 3. Kun jij die vinden?</p>
                             
                             <h4>Palindromen zoeken</h4>
                             <p>Palindromen zijn woorden die van achter naar voren gelezen hetzelfde zijn als wanneer je ze gewoon leest. Lepel is bijvoorbeeld een palindroom. Met <a href="https://drive.google.com/file/d/0B5ue9rJQ-LwBdGFVeFpHQW5QZFU/view">deze opdracht</a> leer je hoe je zulke woorden kunt vinden in een lange lijst met woorden.</p>
 
                             <h4>Tekenen met Turtle</h4>
-                            <p>Automatisch mooie figuren tekeken. Dit heb je vast wel eens gedaan in Scratch. Leer <a href="https://drive.google.com/file/d/0B1R4ph67gGq2MGlPX24wdmM0SGM/edit"target="_blank" rel="noopener noreferrer">hier</a> hoe je dat doet!</p>
+                            <p>Automatisch mooie figuren tekeken. Dit heb je vast wel eens gedaan in Scratch. Leer <a href="https://drive.google.com/file/d/0B1R4ph67gGq2MGlPX24wdmM0SGM/edit" target="_blank" rel="noopener noreferrer">hier</a> hoe je dat doet!</p>
 
-                            <p><b>Meer: </b>Kijk voor grote verzamelingen met opdracht ook op het tabblad 'Websites/boeken'!</p>
-                        </TabPanel>
-                        <TabPanel>
-                            <h2>Website maken</h2>
+                            <p><b>Meer: </b>Kijk voor grote verzamelingen met opdracht ook op het tabblad <i>Van alles wat</i>!</p>
                         </TabPanel>
                         <TabPanel>
                             <h2>Microbit/Arduino</h2>
+                            <p>Programmeren kun je doen op je eigen laptop, maar je kunt ook kleine computertjes. Bij de CoderDojo hebben we een paar verschillende soorten liggen.</p>
+
+                            <h3>Micro:bit</h3>
+                            <p>De Micro:bit is door de Britse BBC ontwikkeld voor het onderwijs. Het is een kleine, krachtige computer met twee knoppen, 5x5 LED lampjes, een bewegingssensor en enkele aansluiting om andere sensoren uit te sluiten. Als je thuis geen Micro:bit hebt, kun je alsnog hier code voor schrijven. Op <a href="https://makecode.microbit.org/" target="_blank" rel="noopener noreferrer">deze website</a> kun je op dezelfde manier code schrijven als in Scratch en testen op de gesimuleerde micro:bit naast de code. Op de CoderDojo kun je dan je code naar de Micro:bit zelf sturen.</p>
+
+                            <h4>Meteoren schieten</h4>
+                            <p><a href="https://coderdojodelft.gitbooks.io/sushi_microbit_meteors/content/nl/" target="_blank" rel="noopener noreferrer">Hier</a> vind je de beschrijving van het spel Meteors. De meteoren vallen steeds sneller naar beneden. Wie haalt de highscore?</p>
+
+                            <h4>Les-programma</h4>
+                            <p>Ga je voor de eerste keer programmeren op de Micro:bit of heb je al ervaring? <a href="https://www.micro-bit.nl/lesmateriaal" target="_blank" rel="noopener noreferrer">Hier</a> vind je een hele verzameling opdrachten die steeds iets moeilijker worden.</p>
+
+                            <h2>Arduino</h2>
+                            <p>De Arduino is een wat uitgebreidere mini-computer als de Micro:bit. Dit betekent ook, dat het daarom wat moeilijker kan zijn om er mee te beginnen. We hebben een aantal Arduino's met verschillende sensoren liggen waarmee je aan de slag kunt.</p>
+
+                            <h4>Arduino lessen</h4>
+                            <p>Op de website <a href="https://arduino-lessen.nl/" target="_blank" rel="noopener noreferrer">Arduino lessen</a> staan 36 video-lessen om aan de slag te gaan met de Arduino. Elke les leer je iets meer over welke sensoren er zijn, hoe je ze aansluit en hoe je ze kunt programmeren.</p> 
                         </TabPanel>
                         <TabPanel>
-                            <h2>3D printer / ThinkerCad</h2>
-                        </TabPanel>
-                        <TabPanel>
-                            <h3>Websites met veel projecten</h3>
+                            <h2>Van alles wat</h2>
+
+                            <h3>3D printer / TinkerCad</h3>
+                            <p><i>Let op: op dit moment is de 3D printer van CoderDojo helaas kapot en kan die niet gebruikt worden tijdens de CoderDojo.</i></p>
+
+                            <p>We hebben een eenvoudige 3D-printer waarop je kleine dingen kunt printen. Hiervoor kun je in <a href="https://www.tinkercad.com/" target="_blank" rel="noopener noreferrer">TinkerCad</a>. Dit kun je tijdens de CoderDojo doen. Maar als je hier thuis al mee wilt beginnen, vind je <a href="http://coderdojo-nijmegen.nl/wp-content/uploads/2015/07/tinkercad_guide_nl.pdf"target="_blank" rel="noopener noreferrer">hier</a> een goede beschrijving. Je kunt ook e tutorial volgen die verschijnt als je inlogt.</p>
+
+                            <h3>Website maken</h3>
+                            <p>Maak je eigen website en laat die aan iedereen zien! We hebben <a href="https://coderdojodelft.gitbooks.io/beginner-html-css-sushi-nl/content/nl/"target="_blank" rel="noopener noreferrer">een beschrijving</a> die uitlegt hoe je dat doet.<br></br>We maken gebruiken van de online omgeving <a href="https://neocities.org/" target="_blank" rel="noopener noreferrer">neocities</a>. Hiermee kun je je website maken en staat hij ook meteen online, zodat je hem aan iedereen kunt laten zien!</p>
+
+                            <h3>Allerlei opdrachten</h3>
+                            <p>Er zijn een heleboel websites en CoderDojo's die allerlei materiaal hebben gemaakt vom te leren programmeren. Hieronder vind je er een aantal waarvan wij ook gebruik maken.</p>
                         
                             <h4>Raspberry Pi Foundation</h4>
                             <p>Deze organisatie werkt wereldwijd en heeft een steeds groeiende verzameling Scratch opdrachten. En een groot aantal daarvan is ook in het Nederlands vertaald. Kijk <a href="https://projects.raspberrypi.org/nl-NL/projects" target="_blank"rel="noopener noreferrer">hier</a> eens als je iets nieuws zoekt. Houd de website in de gaten, er komt regelmatig iets nieuws bij.</p>
@@ -97,7 +117,11 @@ export class MaterialPage extends Component {
                             <h4>CoderDojo Zoetermeer</h4>
                             <p>De CoderDojo van Zoetermeer heeft een hele verzameling Scratch opdrachten. En ze delen ze met iedereen via <a href="https://drive.google.com/drive/folders/0B-NwRJ9NsROUdk9iVTJaSzBldDA" target="_blank"rel="noopener noreferrer">Google Drive</a>.</p>
 
-                            <h3>Programmeerboeken</h3>
+                            <h4>CoderdDojo Nijmegen</h4>
+                            <p>Ook de CoderDojo Nijmegegen heeft een <a href="https://coderdojonijmegen.github.io/" target="_blank"rel="noopener noreferrer"> vezameling oefeningen</a> waar je mee aan de slag kunt.</p>
+                        </TabPanel>
+                        <TabPanel>
+                            <h2>Programmeerboeken</h2>
                             <p>Op internet is natuurlijk ontzettend veel informatie te vinden over programmeren en vind je ook allerlei leuke opdrachten. Maar er zijn ook een aantal leuke boeken met opdracten en uitleg. Bij DOK kun je ook veel vinden, in een boekenkast vlakbij de CoderDojo. Superhandig!</p>
 
 
