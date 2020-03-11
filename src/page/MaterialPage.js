@@ -118,18 +118,28 @@ export class MaterialPage extends Component {
                             <p>De CoderDojo van Zoetermeer heeft een hele verzameling Scratch opdrachten. En ze delen ze met iedereen via <a href="https://drive.google.com/drive/folders/0B-NwRJ9NsROUdk9iVTJaSzBldDA" target="_blank"rel="noopener noreferrer">Google Drive</a>.</p>
 
                             <h4>CoderdDojo Nijmegen</h4>
-                            <p>Ook de CoderDojo Nijmegegen heeft een <a href="https://coderdojonijmegen.github.io/" target="_blank"rel="noopener noreferrer"> vezameling oefeningen</a> waar je mee aan de slag kunt.</p>
+                            <p>Ook de CoderDojo Nijmegegen heeft een <a href="https://coderdojonijmegen.github.io" target="_blank"rel="noopener noreferrer"> vezameling oefeningen</a> waar je mee aan de slag kunt.</p>
                         </TabPanel>
                         <TabPanel>
                             <h2>Programmeerboeken</h2>
-                            <p>Op internet is natuurlijk ontzettend veel informatie te vinden over programmeren en vind je ook allerlei leuke opdrachten. Maar er zijn ook een aantal leuke boeken met opdracten en uitleg. Bij DOK kun je ook veel vinden, in een boekenkast vlakbij de CoderDojo. Superhandig!</p>
-
-
-
+                            <p>Op internet is natuurlijk ontzettend veel informatie te vinden over programmeren en vind je ook allerlei leuke opdrachten. Maar er zijn ook een aantal leuke boeken met opdrachten en uitleg. Bij DOK kun je ook veel vinden, in een boekenkast vlakbij de CoderDojo op Metropolis. Superhandig!</p>
+                            <p>Hieronder een kleine selectie van wat je er zoal kunt vinden:</p>
                             <ul>
-                                <li>
-                                    Booek 1
-                                </li>
+                              <li><a href="https://ct.dok.info/main.php?action=titel&bibtiseq=1000122/" target="_blank"rel="noopener noreferrer">Programmeren voor kinderen</a> (Carol Vorderman)</li>
+                              <li><a href="https://ct.dok.info/main.php?action=titel&bibtiseq=1047489" target="_blank"rel="noopener noreferrer"> Beginnen met programmeren met Scratch en Python</a> (Marc Scott)</li>
+
+                              <li><a href="https://ct.dok.info/main.php?action=titel&bibtiseq=1038355" target="_blank"rel="noopener noreferrer">Stap voor stap: programmeren kun je leren</a> (Max Wainewright)</li>
+                            </ul>
+                            <ul>
+                                <li><a href="https://ct.dok.info/main.php?action=titel&bibtiseq=961528" target="_blank"rel="noopener noreferrer">Leren programmeren met Scratch</a> (Ron Ford)</li>
+                                <li><a href="https://ct.dok.info/main.php?action=titel&bibtiseq=1101862" target="_blank"rel="noopener noreferrer">Doe meer met Scratch</a> (Majed Marjo)</li>
+                                <li><a href="https://ct.dok.info/main.php?action=titel&bibtiseq=1082040" target="_blank"rel="noopener noreferrer">Spelenderwijs programmeren met Scratch</a> (Al Sweigart)</li>
+                            </ul>
+                            <ul>
+                                <li><a href="https://ct.dok.info/main.php?action=titel&bibtiseq=1032632" target="_blank"rel="noopener noreferrer">Programmeren met Python</a> (Jason R. Briggs)</li>
+                                <li><a href="https://ct.dok.info/main.php?action=titel&bibtiseq=1076698" target="_blank"rel="noopener noreferrer">Python programmeren voor kinderen</a> (Carol Vorderman)</li>
+                                <li><a href="https://ct.dok.info/main.php?action=titel&bibtiseq=1095632" target="_blank"rel="noopener noreferrer">Python Games programmeren voor kinderen</a> (Craig Steele)</li>
+                                <li><a href="https://ct.dok.info/main.php?action=titel&bibtiseq=1055724" target="_blank"rel="noopener noreferrer">Projects/Scratch programmeren voor kinderen</a> (Jon Woodcock)</li>
                             </ul>
                         </TabPanel>
                     </Tabs>
