@@ -59,8 +59,6 @@ export class NextEditionPage extends Component {
     render() {
         let content;
 
-        console.log(nextEdition)
-
         if (nextEdition) {
             content = this.dojos();
         } else {

@@ -15,7 +15,7 @@ import { MaterialPage} from './page/MaterialPage';
 import { routes } from './routes';
 import { GlobalStyle } from './style/global-style';
 import { AgendaPage } from './page/AgendaPage';
-
+import { RemotePage } from './page/RemotePage';
 
 export class App extends Component {
     render() {
@@ -39,6 +39,7 @@ export class App extends Component {
                             <Route exact path={routes.extraInfo.url} component={ ExtraInfoPage } />
                             <Route exact path={routes.mentors.url} component={ MentorPage } />
                             <Route exact path={routes.material.url} component={ MaterialPage} />
+                            <Route exact path={routes.remote.url} component={ RemotePage} />
                         </Content>
                     </Container>
                 </React.Fragment>
