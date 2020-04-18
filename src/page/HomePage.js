@@ -30,8 +30,8 @@ export class HomePage extends Component {
                     <p>Een belangrijke eigenschap van een CoderDojo is dat het plaatsvindt in een openbare ruimte en voor iedereen toegankelijk is. <a href="https://opendelft.info/">OPEN</a> (voormalig Bibliotheek DOK Delft) is daarom de perfecte plek voor onze bijeenkomsten.</p>
 
                     <h3>Activiteiten</h3>
-                    <p><b>In verband met het Corona-virus kunnen we tot 1 juni geen normale dojo aanbieden. Maar dat betekent niet dat jullie ons de komende maanden niet helemaal te missen. We zijn heel druk bezig met het opzetten van een online dojo. Op 28 maart draaien we een kleine pilot, zodat we zelf ook kunnen uitzoeken hoe dit werkt.</b></p>
-                    <p><b>En daarna hopen we in april en mei op de geplande data de CoderDojo online te doen. Houd dus onze website in de gaten!</b></p>
+                    <p><b>In verband met het Corona-virus kunnen we tot 1 juni geen normale dojo aanbieden. Maar dat betekent niet dat jullie ons de komende maanden helemaal moeten missen.</b></p>
+                    <p><b>Op 28 maart hebben we een kleine pilot online dojo gehouden en iedereen was enthousiast! De geplande Coderdojo's van april en mei zullen daarom online worden aangeboden. Inschrijven gaat zoals gebruikelijk via de website van DOK.</b></p>
                     <p><b>Kijk op onze nieuwe pagina <Link to={routes.material.url}>'Aan de slag'</Link> voor leuke opdrachten om thuis mee aan de slag te gaan.</b></p>
                     {upcoming}
                     <p>Voor een overzicht van de komende CoderDojo's, kijk <Link to={routes.agenda.url}>hier</Link>.</p>

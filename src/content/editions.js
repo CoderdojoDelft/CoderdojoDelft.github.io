@@ -27,7 +27,7 @@ export let nextEditions = (editions
             date: new Date(datestr + 'T15:00'),
             registrationStart: nlLongDate(minus2weeks(new Date (datestr + 'T12:00'))),
             urlNr,
-            registrationUrl: 'https://dok.op-shop.nl/'+ urlNr +'/coderdojo/' + nlShortDate(new Date (datestr)),
+            registrationUrl: 'https://dok.op-shop.nl/'+ urlNr +'/online-coderdojo/' + nlShortDate(new Date (datestr)),
             displayDate: nlLongDate(new Date(datestr))
         })
     ).filter(
