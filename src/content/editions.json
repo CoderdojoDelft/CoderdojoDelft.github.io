@@ -1,7 +1,8 @@
 [
     {
         "datestr": "2020-12-19",
-        "urlNr": 804
+        "urlNr": 804,
+        "special": "(3e zaterdag ivm Kerst)"
     },
     {
         "datestr": "2021-01-23",
@@ -10,7 +11,7 @@
     {
         "datestr": "2021-02-27",
         "urlNr": "xxx"
-    },
+        },
     {
         "datestr": "2021-03-27",
         "urlNr": "xxx"
@@ -29,26 +30,32 @@
     },
     {
         "datestr": "2021-07-24",
-        "urlNr": "xxx"
+        "urlNr": "xxx",
+        "special": "(zomervakantie)"
     },
     {
         "datestr": "2021-08-28",
-        "urlNr": "xxx"
+        "urlNr": "xxx",
+        "special": "(zomervakantie)"
     },
     {
         "datestr": "2021-09-25",
-        "urlNr": "xxx"
+        "urlNr": "xxx",
+        "special": ""
     },
     {
         "datestr": "2021-10-23",
-        "urlNr": "xxx"
+        "urlNr": "xxx",
+        "special": "(herfstvakantie)"
     },
     {
         "datestr": "2021-11-27",
-        "urlNr": "xxx"
+        "urlNr": "xxx",
+        "special": ""
     },
     {
         "datestr": "2021-12-18",
-        "urlNr": "xxx"
+        "urlNr": "xxx",
+        "special": "(3e zaterdag ivm Kerst)"
     }
 ]
