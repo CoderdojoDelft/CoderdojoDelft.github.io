@@ -19,13 +19,12 @@ export class AgendaPage extends Component {
                         Af en toe wijken we hier vanaf als dit door feestdagen anders niet uitkomt.
                         In de zomervakantie komen de Dojo's mogelijk te vervallen.
                     </p>
-                    <p><b>In verband met het Corona-virus kunnen we tot 1 juni geen normale dojo aanbieden. Maar dat betekent niet dat jullie ons de komende maanden helemaal moeten missen.</b></p>
-                    <p><b>Op 28 maart hebben we een kleine pilot online dojo gehouden en iedereen was enthousiast! De geplande Coderdojo's van april en mei zullen daarom online worden aangeboden. Inschrijven gaat zoals gebruikelijk via de website van DOK.</b></p>
+                    <p>In verband met COVID-19 kunnen we de dojo's helaas niet altijd in OPEN aanbieden. Wanneer dat niet kan, zal de dojo online gehouden moeten worden. Of de dojo online is of bij OPEN, staat vermeld bij de aanmelding.</p>
                     <p>Hieronder vind je een overzicht van de komende edities:</p>
                     <ol>
                         {nextEditions.map((edition, index) => {
                             return (
-                                <li key={index}>{edition.displayDate}</li>
+                                <li key={index}>{edition.displayDate} {edition.special}</li>
                                 )
                             })}
                     </ol>

@@ -23,12 +23,13 @@ function nlShortDate(date) {
 
 export let nextEditions = (editions
     ).map(
-        ({datestr, urlNr}) => ({
+        ({datestr, urlNr, special}) => ({
             date: new Date(datestr + 'T15:00'),
             registrationStart: nlLongDate(minus2weeks(new Date (datestr + 'T12:00'))),
             urlNr,
             registrationUrl: 'https://dok.op-shop.nl/'+ urlNr +'/online-coderdojo/' + nlShortDate(new Date (datestr)),
-            displayDate: nlLongDate(new Date(datestr))
+            displayDate: nlLongDate(new Date(datestr)),
+            special: special
         })
     ).filter(
         ({date}) => date.getTime() > Date.now()

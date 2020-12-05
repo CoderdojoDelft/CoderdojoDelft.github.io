@@ -13,7 +13,7 @@ export class HomePage extends Component {
         if (nextEdition) {
             upcoming = (
                 <React.Fragment>
-                    <p>We organiseren een CoderDojo op:</p>
+                    <p>We organiseren de volgende CoderDojo op:</p>
                     <p><strong>{nextEdition.displayDate}</strong></p>
                     <p>Kijk op onze pagina <Link to={routes.nextEdition.url}>‘Volgende editie’</Link> voor meer informatie over de komende CoderDojo!</p>
                 </React.Fragment>
@@ -30,9 +30,9 @@ export class HomePage extends Component {
                     <p>Een belangrijke eigenschap van een CoderDojo is dat het plaatsvindt in een openbare ruimte en voor iedereen toegankelijk is. <a href="https://opendelft.info/">OPEN</a> (voormalig Bibliotheek DOK Delft) is daarom de perfecte plek voor onze bijeenkomsten.</p>
 
                     <h3>Activiteiten</h3>
-                    <p><b>In verband met het Corona-virus kunnen we tot 1 juni geen normale dojo aanbieden. Maar dat betekent niet dat jullie ons de komende maanden helemaal moeten missen.</b></p>
-                    <p><b>Op 28 maart hebben we een kleine pilot online dojo gehouden en iedereen was enthousiast! De geplande Coderdojo's van april en mei zullen daarom online worden aangeboden. Inschrijven gaat zoals gebruikelijk via de website van DOK. Onder <Link to={routes.remote.url}>'CoderDojo op afstand'</Link> vind je meer informatie over deze online CoderDojo’s.</b></p>
-                    <p><b>Kijk op onze nieuwe pagina <Link to={routes.material.url}>'Aan de slag!'</Link> voor leuke opdrachten om thuis mee aan de slag te gaan.</b></p>
+                    <p>In verband met COVID-19 kunnen wij helaas niet altijd de dojo aanbieden bij OPEN. Per maand bekijken we met DOK wat er mogelijk is. Als het bij OPEN kan, zijn we daar. Als de corona-maatregelen dat niet toelaten, wordt de dojo online gehouden.</p>
+                    <p><b>Houd dus bij het aanmelden en in de uitnodiging in de gaten of de dojo online of bij OPEN is.</b></p>
+                    <p>Kijk op onze pagina <Link to={routes.material.url}>'Aan de slag!'</Link> voor leuke opdrachten om thuis mee aan de slag te gaan.</p>
                     {upcoming}
                     <p>Voor een overzicht van de komende CoderDojo's, kijk <Link to={routes.agenda.url}>hier</Link>.</p>
 

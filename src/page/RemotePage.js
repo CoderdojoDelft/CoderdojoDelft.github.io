@@ -12,11 +12,9 @@ export class RemotePage extends Component {
             <Page>
                 <PageTitle>CoderDojo op afstand</PageTitle>
                 <PageBody>
-                <p>In verband met het Corona-virus kunnen we tot 1 juni geen normale dojo aanbieden. Maar dat betekent niet dat jullie ons de komende maanden helemaal moeten missen.</p>
+                <p>In verband met het COVID-19 kunnen we niet elke maand geen normale dojo aanbieden. Maar dat betekent niet dat jullie ons in die maanden helemaal moeten missen.</p>
                 
-                <p>Op 28 maart hebben we een kleine pilot online dojo gehouden en iedereen was enthousiast! De geplande Coderdojo's van april en mei zullen daarom online worden aangeboden. Hieronder vind je hoe en ook een aantal spelregels om goed samen te kunnen werken online.</p>
-                
-                <p>De online CoderDojo wordt gehouden via Jitsi. Dit is een Open Source video/chat platform, dat voor de CoderDojo gehost wordt door het bedrijf van mentor Ruben.</p>
+                <p>De online CoderDojo wordt gehouden via Jitsi. Dit is een Open Source video/chat platform.</p>
                 <p>In deze omgeving kunnen we videobellen en kan iedereen zijn scherm delen met de groep. Tijdens het werken aan de opdrachten (in kleine groepjes) is het de bedoeling dat de ninja's hun scherm delen, zodat de mentoren makkelijk mee kunnen kijken. De mentoren hebben de webcam aanstaan.</p>
                 <p>Na een korte introductie wordt er in verschillende chatrooms aan opdrachten gewerkt. Dit om zo aan iedereen uitleg te kunnen geven, zonder dat iedereen er last van heeft. Ninja's in dezelfde room werken aan eenzelfde soort opdracht. In elke chatroom zijn altijd minstens twee mentoren aanwezig. Aan het eind van de dojo komen we weer samen in één room en kan iedereen laten zien wat hij/zij gemaakt heeft.</p>
 
