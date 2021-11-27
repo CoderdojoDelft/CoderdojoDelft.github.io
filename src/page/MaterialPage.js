@@ -27,10 +27,16 @@ export class MaterialPage extends Component {
                             <p>Hieronder vind je links naar de opdrachten die we voor Scratch gebruiken. Je kunt dus thuis gewoon verder werken of aan iets nieuws beginnen!</p>
                             <p>De hieronder vermelde materialen zijn ontwikkeld door verschillende CoderDojo-groepen in Nederland en België.</p>
                             <h3>Beginnen met Scratch</h3>
-                            <p>Om te beginnen met Scratch hoef je niets te installeren, het staat online. Ga naar <a href="http://scratch.mit.edu" target="_blank" rel="noopener noreferrer">de website van Scratch</a> . De eerste keer moet je een gebruikersnaamm aanmaken (vraag je ouders je te helpen). Daarmee kun je daarna weer inloggen en al je oude projecten zien.</p>
+                            <p>Om te beginnen met Scratch hoef je niets te installeren, het staat online. Ga naar <a href="http://scratch.mit.edu" target="_blank" rel="noopener noreferrer">de website van Scratch</a> . De eerste keer moet je een gebruikersnaam aanmaken (vraag je ouders je te helpen). Daarmee kun je daarna weer inloggen en al je oude projecten zien.</p>
+
+                            <h3>Online Projecten</h3>
+
+                            <p>We werken bij de Dojo's tegenwoordig meestal met de Scratch projecten van de <a href="https://projects.raspberrypi.org/nl-NL/projects?software%5B%5D=scratch" target="_blank" rel="noopener noreferrer">Raspberry Pi Foundation</a>. Hier staan projecten van allerlei moeilijksheidgraden.</p>
+
+                            <h3>Andere Projecten</h3>
+                            <p>Er zijn ook andere projecten, bij de meeste kun je de uitleg downloaden en uitprinten. Deze staan hieronder.</p>
 
                             <h3>Je eerste project</h3>
-
                             <h4>De Draak</h4>
                             <p>De draak is verdwaald in de stad. Er komt een bus langs. Kun jij de draak de passagiers laten schrikken? <a href="https://drive.google.com/file/d/0B-5aZIp2Sz0yVUVKYTQ0cVQ1b3c/view" target="_blank" rel="noopener noreferrer">Hier</a> vind je de beschrijving.</p>
 
@@ -39,7 +45,7 @@ export class MaterialPage extends Component {
 
                             <h4>Analoge klok</h4>
                             <p>Maak je eigen klok! <a href="https://drive.google.com/drive/folders/1Q_wJ2WQjFax9Ecx3nwR_hJ6DGu2U2cRI">Hier</a> vind je de beschrijving en een aantal sprites om mee te beginnen</p>
-                            
+
                             <h4>Maanlander (50 jaar maanlanding 2019)</h4>
                             <p>Op 20 juli 1969 zette Neil Armstrong de eerste stap op de maan. Maak nu je eigen maanlandingsspel! <a href="https://coderdojodelft.gitbooks.io/scratch-moonhack-2019/content/nl/" target="_blank"rel="noopener noreferrer">Hier</a> vind je de beschrijving.</p>
 
@@ -52,9 +58,9 @@ export class MaterialPage extends Component {
                             <h3>Iets moeilijker</h3>
                             <h4>Racebaan</h4>
                             <p>Al heel lang worden er autorace spelletjes gespeeld op de computer. Maak je eigen racespel met <a href="https://drive.google.com/file/d/0B-5aZIp2Sz0yY0JocVk5bnRieWM/view" target="_blank"rel="noopener noreferrer">deze uitleg</a>.</p>
-                            
-                            <h4>Flappy bird</h4>  
-                            <p>Je bent een vogel, maar valt langzaam naar beneden. Blijf vliegen en ontwijk ondertussen allelei obstakels. Maak dit superspannende spel <a href="http://scratchweb.nl/sites/default/files/bijlage/Scratchweb/Leskaart%20Flappy%20Bird.pdf" target="_blank"rel="noopener noreferrer">zo</a></p>  
+
+                            <h4>Flappy bird</h4>
+                            <p>Je bent een vogel, maar valt langzaam naar beneden. Blijf vliegen en ontwijk ondertussen allelei obstakels. Maak dit superspannende spel <a href="http://scratchweb.nl/sites/default/files/bijlage/Scratchweb/Leskaart%20Flappy%20Bird.pdf" target="_blank"rel="noopener noreferrer">zo</a></p>
 
                             <h4>Snake</h4>
                             <p>Snake was een superpopulair spelletje op de oude Nokia telefoons. Je ouders kennen het vast. Maak dit spel voor hen behulp van <a href="http://scratchweb.nl/sites/default/files/bijlage/Scratchweb/Leskaart%20Snake_0.pdf" target="_blank"rel="noopener noreferrer">dit voorbeeld</a>.</p>
@@ -69,7 +75,7 @@ export class MaterialPage extends Component {
 
                             <h4>Nummer raden</h4>
                             <p>Leer de basisbegrippen van Python en maak je eerste spelletje! Kun jij het getal raden? Van <a href="https://drive.google.com/file/d/0B5ue9rJQ-LwBaVprWVBkSzVFUDA/view" target="_blank" rel="noopener noreferrer">de beschrijving</a> kun je kaart 1 overslaan, want we gaan Python niet installeren (zie hierboven). En helaas staat er een foutje in de code bij punt 2 op kaart 3. Kun jij die vinden?</p>
-                            
+
                             <h4>Palindromen zoeken</h4>
                             <p>Palindromen zijn woorden die van achter naar voren gelezen hetzelfde zijn als wanneer je ze gewoon leest. Lepel is bijvoorbeeld een palindroom. Met <a href="https://drive.google.com/file/d/0B5ue9rJQ-LwBdGFVeFpHQW5QZFU/view">deze opdracht</a> leer je hoe je zulke woorden kunt vinden in een lange lijst met woorden.</p>
 
@@ -95,7 +101,7 @@ export class MaterialPage extends Component {
                             <p>De Arduino is een wat uitgebreidere mini-computer als de Micro:bit. Dit betekent ook, dat het daarom wat moeilijker kan zijn om er mee te beginnen. We hebben een aantal Arduino's met verschillende sensoren liggen waarmee je aan de slag kunt.</p>
 
                             <h4>Arduino lessen</h4>
-                            <p>Op de website <a href="https://arduino-lessen.nl/" target="_blank" rel="noopener noreferrer">Arduino lessen</a> staan 36 video-lessen om aan de slag te gaan met de Arduino. Elke les leer je iets meer over welke sensoren er zijn, hoe je ze aansluit en hoe je ze kunt programmeren.</p> 
+                            <p>Op de website <a href="https://arduino-lessen.nl/" target="_blank" rel="noopener noreferrer">Arduino lessen</a> staan 36 video-lessen om aan de slag te gaan met de Arduino. Elke les leer je iets meer over welke sensoren er zijn, hoe je ze aansluit en hoe je ze kunt programmeren.</p>
                         </TabPanel>
                         <TabPanel>
                             <h2>Van alles wat</h2>
@@ -110,10 +116,10 @@ export class MaterialPage extends Component {
 
                             <h3>Allerlei opdrachten</h3>
                             <p>Er zijn een heleboel websites en CoderDojo's die allerlei materiaal hebben gemaakt vom te leren programmeren. Hieronder vind je er een aantal waarvan wij ook gebruik maken.</p>
-                        
+
                             <h4>Raspberry Pi Foundation</h4>
                             <p>Deze organisatie werkt wereldwijd en heeft een steeds groeiende verzameling Scratch opdrachten. En een groot aantal daarvan is ook in het Nederlands vertaald. Kijk <a href="https://projects.raspberrypi.org/nl-NL/projects" target="_blank"rel="noopener noreferrer">hier</a> eens als je iets nieuws zoekt. Houd de website in de gaten, er komt regelmatig iets nieuws bij.</p>
-                            
+
                             <h4>CoderDojo Zoetermeer</h4>
                             <p>De CoderDojo van Zoetermeer heeft een hele verzameling Scratch opdrachten. En ze delen ze met iedereen via <a href="https://drive.google.com/drive/folders/0B-NwRJ9NsROUdk9iVTJaSzBldDA" target="_blank"rel="noopener noreferrer">Google Drive</a>.</p>
 
