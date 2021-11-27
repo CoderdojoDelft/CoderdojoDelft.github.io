@@ -30,8 +30,8 @@ Our beautiful website will open at http://localhost:3000/.
 ## Deploying
 
 The website is hosted on Github Pages.
-Every commit to the `develop` branch is automatically built 
-and deployed by [Travis-CI].
+Every commit to the `develop` branch is automatically built
+and deployed by [Github Actions].
 
 The website can be deployed manually by running:
 
@@ -39,10 +39,10 @@ The website can be deployed manually by running:
 npm run deploy
 ```
 
-This will build the website, 
-commit the build output to the master branch, 
+This will build the website,
+commit the build output to the master branch,
 and push the master branch to Github.
 
- [Travis-CI]: https://travis-ci.org/CoderdojoDelft/CoderdojoDelft.github.io
+ [Github Actions]: https://github.com/CoderdojoDelft/CoderdojoDelft.github.io/actions
  [Create React App]: https://github.com/facebook/create-react-app
 
