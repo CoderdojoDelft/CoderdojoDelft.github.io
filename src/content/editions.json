@@ -1,72 +1,17 @@
 [
     {
-        "datestr": "2020-12-19",
-        "urlNr": 804,
-        "special": "(3e zaterdag ivm Kerst)",
-        "where": "online-coderdojo"
+        "datestr": "2022-01-22",
+        "urlNr": 1571,
+        "where": "coderdojo"
     },
     {
-        "datestr": "2021-01-23",
-        "urlNr": 1112,
-        "where": "online-coderdojo"
+        "datestr": "2022-02-26",
+        "urlNr": 1572,
+        "where": "coderdojo"
     },
     {
-        "datestr": "2021-02-27",
-        "urlNr": 1113,
-        "where": "online-coderdojo"
-        },
-    {
-        "datestr": "2021-03-27",
-        "urlNr": 1114,
-        "where": "online-coderdojo"
-    },
-    {
-        "datestr": "2021-04-24",
-        "urlNr": 1115,
-        "where": "online-coderdojo"
-    },
-    {
-        "datestr": "2021-05-22",
-        "urlNr": 1116,
-        "where": "online-coderdojo"
-    },
-    {
-        "datestr": "2021-06-26",
-        "urlNr": 1117,
-        "where": "online-coderdojo"
-    },
-    {
-        "datestr": "2021-07-24",
-        "urlNr": 1118,
-        "special": "(zomervakantie)",
-        "where": "online-coderdojo"
-    },
-    {
-        "datestr": "2021-08-28",
-        "urlNr": 1119,
-        "special": "(zomervakantie)",
-        "where": "online-coderdojo"
-    },
-    {
-        "datestr": "2021-09-25",
-        "urlNr": 1120,
-        "where": "online-coderdojo"
-    },
-    {
-        "datestr": "2021-10-23",
-        "urlNr": 1121,
-        "special": "(herfstvakantie)",
-        "where": "online-coderdojo"
-    },
-    {
-        "datestr": "2021-11-27",
-        "urlNr": 1122,
-        "where": "online-coderdojo"
-    },
-    {
-        "datestr": "2021-12-18",
-        "urlNr": 1123,
-        "special": "(3e zaterdag ivm Kerst)",
-        "where": "online-coderdojo"
+        "datestr": "2022-03-26",
+        "urlNr": 1573,
+        "where": "coderdojo"
     }
 ]
