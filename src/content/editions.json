@@ -1,62 +1,17 @@
 [
     {
-        "datestr": "2022-01-22",
-        "urlNr": 1571,
+        "datestr": "2023-02-25",
+        "urlNr": 2354,
         "where": "online-coderdojo"
     },
     {
-        "datestr": "2022-02-26",
-        "urlNr": 1572,
+        "datestr": "2023-03-25",
+        "urlNr": 2355,
         "where": "coderdojo"
     },
     {
-        "datestr": "2022-03-26",
-        "urlNr": 1573,
-        "where": "coderdojo"
-    },
-    {
-        "datestr": "2022-04-23",
-        "urlNr": 1574,
-        "where": "coderdojo"
-    },
-    {
-        "datestr": "2022-05-28",
-        "urlNr": 1575,
-        "where": "coderdojo"
-    },
-    {
-        "datestr": "2022-06-25",
-        "urlNr": 1576,
-        "where": "coderdojo"
-    },
-    {
-        "datestr": "2022-07-23",
-        "urlNr": 1577,
-        "where": "coderdojo"
-    },
-    {
-        "datestr": "2022-08-27",
-        "urlNr": 1578,
-        "where": "coderdojo"
-    },
-    {
-        "datestr": "2022-09-24",
-        "urlNr": 1579,
-        "where": "coderdojo"
-    },
-    {
-        "datestr": "2022-10-22",
-        "urlNr": 1580,
-        "where": "coderdojo"
-    },
-    {
-        "datestr": "2022-11-26",
-        "urlNr": 1581,
-        "where": "coderdojo"
-    },
-    {
-        "datestr": "2022-12-17",
-        "urlNr": 1582,
+        "datestr": "2022-04-22",
+        "urlNr": 2356,
         "where": "coderdojo"
     }
 ]
