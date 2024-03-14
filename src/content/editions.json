@@ -10,13 +10,53 @@
         "where": "coderdojo"
     },
     {
-        "datestr": "2024-03-23",
+        "datestr": "2024-03-30",
         "urlNr": 2355,
         "where": "coderdojo"
     },
     {
         "datestr": "2024-04-20",
         "urlNr": 2356,
+        "where": "coderdojo"
+    },
+    {
+        "datestr": "2024-05-25",
+        "urlNr": 3355,
+        "where": "coderdojo"
+    },
+    {
+        "datestr": "2024-06-22",
+        "urlNr": 3356,
+        "where": "coderdojo"
+    },
+    {
+        "datestr": "2024-07-27",
+        "urlNr": 3357,
+        "where": "coderdojo"
+    },
+    {
+        "datestr": "2024-08-31",
+        "urlNr": 3358,
+        "where": "coderdojo"
+    },
+    {
+        "datestr": "2024-09-28",
+        "urlNr": 3359,
+        "where": "coderdojo"
+    },
+    {
+        "datestr": "2024-09-28",
+        "urlNr": 3359,
+        "where": "coderdojo"
+    },
+    {
+        "datestr": "2024-10-26",
+        "urlNr": 9999,
+        "where": "coderdojo"
+    },
+    {
+        "datestr": "2024-12-21",
+        "urlNr": 3362,
         "where": "coderdojo"
     }
 ]
