@@ -11,11 +11,10 @@ import { HomePage } from './page/HomePage';
 import { MentorPage } from './page/MentorPage';
 import { NextEditionPage } from './page/NextEditionPage';
 import { WhatWeDoPage } from './page/WhatWeDoPage';
-import { MaterialPage} from './page/MaterialPage';
+import { MaterialPage } from './page/MaterialPage';
 import { routes } from './routes';
 import { GlobalStyle } from './style/global-style';
 import { AgendaPage } from './page/AgendaPage';
-import { RemotePage } from './page/RemotePage';
 
 export class App extends Component {
     render() {
@@ -31,15 +30,14 @@ export class App extends Component {
                     <Container>
                         <MenuComponent />
                         <Content>
-                            <Route exact path={routes.home.url} component={ HomePage } />
-                            <Route exact path={routes.whatWeDo.url} component= { WhatWeDoPage } />
-                            <Route exact path={routes.nextEdition.url} component={ NextEditionPage } />
-                            <Route exact path={routes.agenda.url} component={ AgendaPage } />
-                            <Route exact path={routes.aboutUs.url} component={ AboutUsPage } />
-                            <Route exact path={routes.extraInfo.url} component={ ExtraInfoPage } />
-                            <Route exact path={routes.mentors.url} component={ MentorPage } />
-                            <Route exact path={routes.material.url} component={ MaterialPage} />
-                            <Route exact path={routes.remote.url} component={ RemotePage} />
+                            <Route exact path={routes.home.url} component={HomePage} />
+                            <Route exact path={routes.whatWeDo.url} component={WhatWeDoPage} />
+                            <Route exact path={routes.nextEdition.url} component={NextEditionPage} />
+                            <Route exact path={routes.agenda.url} component={AgendaPage} />
+                            <Route exact path={routes.aboutUs.url} component={AboutUsPage} />
+                            <Route exact path={routes.extraInfo.url} component={ExtraInfoPage} />
+                            <Route exact path={routes.mentors.url} component={MentorPage} />
+                            <Route exact path={routes.material.url} component={MaterialPage} />
                         </Content>
                     </Container>
                 </React.Fragment>

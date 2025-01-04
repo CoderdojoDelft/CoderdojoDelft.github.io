@@ -27,17 +27,14 @@ export class HomePage extends Component {
                     <h2>Welkom bij CoderDojo Delft!</h2>
                     <p>CoderDojo Delft realiseert samen met enthousiaste vrijwilligers een platform waar kinderen van 8 tot 14 jaar in een technische stad als Delft de mogelijkheid krijgen om kennis te maken met een nog ontbrekend vak in het basisonderwijs en voortgezet onderwijs: programmeren.</p>
                     <p>Bij CoderDojo Delft leren kinderen programmeren, websites te bouwen, apps te ontwikkelen, programma’s te maken, games te maken en meer! We komen regelmatig bij elkaar om te leren programmeren, maar ook om andere deelnemers te ontmoeten. De CoderDojo is gratis bij te wonen omdat het volledig georganiseerd en begeleid wordt door vrijwilligers (mentoren).</p>
-                    <p>Een belangrijke eigenschap van een CoderDojo is dat het plaatsvindt in een openbare ruimte en voor iedereen toegankelijk is. <a href="https://opendelft.info/">OPEN</a> (voormalig Bibliotheek DOK Delft) is daarom de perfecte plek voor onze bijeenkomsten.</p>
-
+                    <p>Een belangrijke eigenschap van een CoderDojo is dat het plaatsvindt in een openbare ruimte en voor iedereen toegankelijk is. <a href="https://opendelft.info/">OPEN</a> (voormalig Bibliotheek DOK Delft) is daarom de perfecte plek voor onze bijeenkomsten. <strong>Let op!</strong> Soms organizeren we ook Dojo's op andere plaatsen, kijk dus even goed waar de Dojo is.</p>
                     <h3>Activiteiten</h3>
-                    <p>In verband met COVID-19 kunnen wij helaas niet altijd de dojo aanbieden bij OPEN. Per maand bekijken we met DOK wat er mogelijk is. Als het bij OPEN kan, zijn we daar. Als de corona-maatregelen dat niet toelaten, wordt de dojo online gehouden.</p>
-                    <p><b>Houd dus bij het aanmelden en in de uitnodiging in de gaten of de dojo online of bij OPEN is.</b></p>
                     <p>Kijk op onze pagina <Link to={routes.material.url}>'Aan de slag!'</Link> voor leuke opdrachten om thuis mee aan de slag te gaan.</p>
                     {upcoming}
                     <p>Voor een overzicht van de komende CoderDojo's, kijk <Link to={routes.agenda.url}>hier</Link>.</p>
 
                     <h3>Andere locaties</h3>
-                    <p>Ook op andere plekken in Nederland zijn CoderDojo’s gestart! Geen plek meer in Delft? Meld je dan aan bij een van de andere CoderDojo’s in de buurt:</p>
+                    <p>Ook op andere plekken in Nederland zijn CoderDojo’s! Geen plek meer in Delft? Meld je dan aan bij een van de andere CoderDojo’s in de buurt:</p>
                     <ul>
                         <li><a href="http://www.coderdojo-zoetermeer.nl/" target="_blank" rel="noopener noreferrer">CoderDojo Zoetermeer</a></li>
                         <li><a href="http://www.coderdojo-denhaag.nl/" target="_blank" rel="noopener noreferrer">CoderDojo Den Haag</a></li>

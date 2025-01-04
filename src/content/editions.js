@@ -1,7 +1,7 @@
 const editions = require('./editions.json');
 
 function minus2weeks(datestr) {
-    return new Date(datestr.getTime() - 13 * 24 * 60 *60 * 1000)
+    return new Date(datestr.getTime() - 13 * 24 * 60 * 60 * 1000)
 }
 
 
@@ -22,19 +22,19 @@ function nlShortDate(date) {
 }
 
 export let nextEditions = (editions
-    ).map(
-        ({datestr, urlNr, special, where}) => ({
-            date: new Date(datestr + 'T15:00'),
-            registrationStart: nlLongDate(minus2weeks(new Date (datestr + 'T12:00'))),
-            urlNr,
-            registrationUrl: 'https://dok.op-shop.nl/'+ urlNr + '/' + where + '/' + nlShortDate(new Date (datestr)),
-            displayDate: nlLongDate(new Date(datestr)),
-            special: special,
-        })
-    ).filter(
-        ({date}) => date.getTime() > Date.now()
-    ).sort(
-        (a, b) => a.date.getTime() - b.date.getTime()
-    );
+).map(
+    ({ datestr, urlNr, special, where }) => ({
+        date: new Date(datestr + 'T15:00'),
+        registrationStart: nlLongDate(minus2weeks(new Date(datestr + 'T12:00'))),
+        urlNr,
+        registrationUrl: 'https://dok.op-shop.nl/' + ((urlNr + '').indexOf('/') < 0 ? urlNr + '/' + where + '/' + nlShortDate(new Date(datestr)) : urlNr),
+        displayDate: nlLongDate(new Date(datestr)),
+        special: special,
+    })
+).filter(
+    ({ date }) => date.getTime() > Date.now()
+).sort(
+    (a, b) => a.date.getTime() - b.date.getTime()
+);
 
 export let nextEdition = nextEditions.length > 0 && nextEditions[0]

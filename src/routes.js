@@ -19,11 +19,6 @@ export const routes = {
         title: 'Agenda',
         weight: 30
     },
-    remote: {
-        url: '/remote',
-        title: 'CoderDojo op afstand',
-        weight: 35
-    },
     aboutUs: {
         url: '/overons',
         title: 'Over ons',

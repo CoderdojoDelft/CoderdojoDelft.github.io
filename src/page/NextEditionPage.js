@@ -22,9 +22,6 @@ export class NextEditionPage extends Component {
             <React.Fragment>
                 <h2>{nextEdition.displayDate}</h2>
                 <p>De volgende CoderDojo in Delft wordt georganiseerd op {nextEdition.displayDate}.</p>
-                <p>Afhankelijk van de geldende maatregelen mbt COVID-19 is de CoderDojo online of bij OPEN. Let hier op bij de inschrijving.</p>
-                <p>Indien we bij elkaar mogen komen, vindt CoderDojo vindt in OPEN (Vesteplein 100). We zullen op de dag zelf de plaats duidelijk aangeven.</p>
-                <p>Als de CoderDojo online plaatsvindt, ontvang je hier de dag voor de dojo instructies over. Meer informatie over online dojo's kun je <Link to={routes.remote.url}>hier</Link> vinden.</p>
                 <p>De link om in te schrijven vind je onder aan deze pagina. De inschrijving gaat open op {nextEdition.registrationStart} om 12:00 (’s middags) –  Wees er snel bij!</p>
                 <p>Voor een overzicht van de komende CoderDojo's, kijk <Link to={routes.agenda.url}>hier</Link>.</p>
                 <h3>Wat gaan we doen?</h3>
