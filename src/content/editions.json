@@ -1,63 +1,9 @@
 [
     {
-        "datestr": "2024-10-26",
-        "urlNr": 9999,
-        "where": "coderdojo"
-    },
-    {
-        "datestr": "2024-12-21",
-        "urlNr": 3362,
-        "where": "coderdojo"
-    },
-    {
-        "datestr": "2025-01-25",
-        "urlNr": "534/coderdojo/vanaf/25-01-2025",
-        "where": "coderdojo"
-    },
-    {
-        "datestr": "2025-02-08",
-        "urlNr": "534/coderdojo/vanaf/08-02-2025",
-        "where": "coderdojo"
-    },
-    {
-        "datestr": "2025-02-22",
-        "urlNr": 4264,
-        "where": "coderdojo"
-    },
-    {
-        "datestr": "2025-03-08",
-        "urlNr": "534/coderdojo/vanaf/08-03-2025",
-        "where": "coderdojo"
-    },
-    {
-        "datestr": "2025-03-22",
-        "urlNr": 4265,
-        "where": "coderdojo"
-    },
-    {
-        "datestr": "2025-04-19",
-        "urlNr": 4266,
-        "where": "coderdojo"
-    },
-    {
-        "datestr": "2025-05-24",
-        "urlNr": 4267,
-        "where": "coderdojo"
-    },
-    {
-        "datestr": "2025-06-28",
-        "urlNr": 4269,
-        "where": "coderdojo"
-    },
-    {
-        "datestr": "2025-07-26",
-        "urlNr": 4270,
-        "where": "coderdojo"
-    },
-    {
-        "datestr": "2025-08-30",
-        "urlNr": 4271,
-        "where": "coderdojo"
+        "datestr": "2025-09-13",
+        "urlNr": 5364,
+        "where": "coderdojo",
+        "special": "Voorhof"
     },
     {
         "datestr": "2025-09-27",
@@ -65,14 +11,32 @@
         "where": "coderdojo"
     },
     {
+        "datestr": "2025-10-11",
+        "urlNr": 999,
+        "where": "coderdojo",
+        "special": "Voorhof"
+    },
+    {
         "datestr": "2025-10-25",
         "urlNr": 4273,
         "where": "coderdojo"
     },
     {
+        "datestr": "2025-11-08",
+        "urlNr": 999,
+        "where": "coderdojo",
+        "special": "Voorhof"
+    },
+    {
         "datestr": "2025-11-22",
         "urlNr": 4274,
         "where": "coderdojo"
+    },
+    {
+        "datestr": "2025-12-06",
+        "urlNr": 999,
+        "where": "coderdojo",
+        "special": "Voorhof"
     },
     {
         "datestr": "2025-12-20",
