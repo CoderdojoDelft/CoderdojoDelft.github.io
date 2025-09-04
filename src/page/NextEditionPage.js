@@ -27,8 +27,8 @@ export class NextEditionPage extends Component {
                 <h3>Wat gaan we doen?</h3>
                 <ul>
                     <li>Scratch</li>
-                    <li>Microbit</li>
-                    <li>Arduino</li>
+                    {/* <li>Microbit</li>
+                    <li>Arduino</li> */}
                     <li>Python</li>
                     <li>Websites</li>
                 </ul>
