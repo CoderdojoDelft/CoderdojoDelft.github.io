@@ -1,4 +1,4 @@
-const editions = require('./editions.json');
+import editions from './editions.json';
 
 function minus2weeks(datestr) {
     return new Date(datestr.getTime() - 13 * 24 * 60 * 60 * 1000)
