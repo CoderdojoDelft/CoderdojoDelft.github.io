@@ -30,8 +30,93 @@
         "where": "DOK in OPEN"
     },
     {
+        "datestr": "2026-04-11",
+        "urlNr": 999,
+        "where": "DOK Voorhof"
+    },
+    {
         "datestr": "2026-04-25",
         "urlNr": 5991,
+        "where": "DOK in OPEN"
+    },
+    {
+        "datestr": "2026-05-09",
+        "urlNr": 999,
+        "where": "DOK Voorhof"
+    },
+    {
+        "datestr": "2026-05-23",
+        "urlNr": 999,
+        "where": "DOK in OPEN"
+    },
+    {
+        "datestr": "2026-06-13",
+        "urlNr": 999,
+        "where": "DOK Voorhof"
+    },
+    {
+        "datestr": "2026-06-27",
+        "urlNr": 999,
+        "where": "DOK in OPEN"
+    },
+    {
+        "datestr": "2026-07-11",
+        "urlNr": 999,
+        "where": "DOK Voorhof"
+    },
+    {
+        "datestr": "2026-07-25",
+        "urlNr": 999,
+        "where": "DOK in OPEN"
+    },
+    {
+        "datestr": "2026-08-08",
+        "urlNr": 999,
+        "where": "DOK Voorhof"
+    },
+    {
+        "datestr": "2026-08-22",
+        "urlNr": 999,
+        "where": "DOK in OPEN"
+    },
+    {
+        "datestr": "2026-09-12",
+        "urlNr": 999,
+        "where": "DOK Voorhof"
+    },
+    {
+        "datestr": "2026-09-26",
+        "urlNr": 999,
+        "where": "DOK in OPEN"
+    },
+    {
+        "datestr": "2026-10-10",
+        "urlNr": 999,
+        "where": "DOK Voorhof"
+    },
+    {
+        "datestr": "2026-10-24",
+        "urlNr": 999,
+        "where": "DOK in OPEN"
+    },
+    {
+        "datestr": "2026-11-14",
+        "urlNr": 999,
+        "where": "DOK Voorhof"
+    },
+    {
+        "datestr": "2026-11-28",
+        "urlNr": 999,
+        "where": "DOK in OPEN"
+    },
+    {
+        "datestr": "2026-12-12",
+        "urlNr": 999,
+        "where": "DOK Voorhof"
+    },
+    {
+        "datestr": "2026-12-19",
+        "urlNr": 999,
         "where": "DOK in OPEN"
     }
 ]
