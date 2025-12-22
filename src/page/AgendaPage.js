@@ -22,7 +22,7 @@ export class AgendaPage extends Component {
                     <ol>
                         {nextEditions.map((edition, index) => {
                             return (
-                                <li key={index}>{edition.displayDate} {edition.special}</li>
+                                <li key={index}>{edition.displayDate} {edition.where} {edition.special}</li>
                             )
                         })}
                     </ol>
