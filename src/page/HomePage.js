@@ -14,7 +14,7 @@ export class HomePage extends Component {
             upcoming = (
                 <React.Fragment>
                     <p>We organiseren de volgende CoderDojo op:</p>
-                    <p><strong>{nextEdition.displayDate}</strong></p>
+                    <p><strong>{nextEdition.displayDate} in {nextEdition.where}</strong></p>
                     <p>Kijk op onze pagina <Link to={routes.nextEdition.url}>‘Volgende editie’</Link> voor meer informatie over de komende CoderDojo!</p>
                 </React.Fragment>
             );
