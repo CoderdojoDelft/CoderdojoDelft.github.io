@@ -30,6 +30,7 @@ export let nextEditions = (editions
         registrationUrl: 'https://dok.op-shop.nl/' + ((urlNr + '').indexOf('/') < 0 ? urlNr + '/' + where + '/' + nlShortDate(new Date(datestr)) : urlNr),
         displayDate: nlLongDate(new Date(datestr)),
         special: special,
+        where: where
     })
 ).filter(
     ({ date }) => date.getTime() > Date.now()

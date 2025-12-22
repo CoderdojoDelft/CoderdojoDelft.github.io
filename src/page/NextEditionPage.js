@@ -21,7 +21,7 @@ export class NextEditionPage extends Component {
         return (
             <React.Fragment>
                 <h2>{nextEdition.displayDate}</h2>
-                <p>De volgende CoderDojo in Delft wordt georganiseerd op {nextEdition.displayDate}.</p>
+                <p>De volgende CoderDojo in Delft wordt georganiseerd op {nextEdition.displayDate} in {nextEdition.where}.</p>
                 <p>De link om in te schrijven vind je onder aan deze pagina. De inschrijving gaat open op {nextEdition.registrationStart} om 12:00 (’s middags) –  Wees er snel bij!</p>
                 <p>Voor een overzicht van de komende CoderDojo's, kijk <Link to={routes.agenda.url}>hier</Link>.</p>
                 <h3>Wat gaan we doen?</h3>
