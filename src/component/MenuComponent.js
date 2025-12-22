@@ -132,7 +132,7 @@ export class MenuComponent extends Component {
                             sortedRouteKeys.map((route, index) => {
                                 return (
                                     <li key={index}>
-                                        <Link exact to={routes[route].url} activeClassName="active">{routes[route].title}</Link>
+                                        <Link to={routes[route].url} className={({ isActive }) => isActive ? 'active' : ''}>{routes[route].title}</Link>
                                     </li>
                                 );
                             })

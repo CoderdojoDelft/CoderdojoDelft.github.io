@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { HashRouter, Route } from 'react-router-dom';
+import React from 'react';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 import { HeaderComponent } from './component/HeaderComponent';
 import { MenuComponent } from './component/MenuComponent';
@@ -16,32 +16,32 @@ import { routes } from './routes';
 import { GlobalStyle } from './style/global-style';
 import { AgendaPage } from './page/AgendaPage';
 
-export class App extends Component {
-    render() {
-        return (
-            <HashRouter>
-                <React.Fragment>
-                    <GlobalStyle />
-                    <Container>
-                        <Content>
-                            <HeaderComponent />
-                        </Content>
-                    </Container>
-                    <Container>
-                        <MenuComponent />
-                        <Content>
-                            <Route exact path={routes.home.url} component={HomePage} />
-                            <Route exact path={routes.whatWeDo.url} component={WhatWeDoPage} />
-                            <Route exact path={routes.nextEdition.url} component={NextEditionPage} />
-                            <Route exact path={routes.agenda.url} component={AgendaPage} />
-                            <Route exact path={routes.aboutUs.url} component={AboutUsPage} />
-                            <Route exact path={routes.extraInfo.url} component={ExtraInfoPage} />
-                            <Route exact path={routes.mentors.url} component={MentorPage} />
-                            <Route exact path={routes.material.url} component={MaterialPage} />
-                        </Content>
-                    </Container>
-                </React.Fragment>
-            </HashRouter>
-        );
-    }
-}
+export const App = () => {
+    return (
+        <HashRouter>
+            <React.Fragment>
+                <GlobalStyle />
+                <Container>
+                    <Content>
+                        <HeaderComponent />
+                    </Content>
+                </Container>
+                <Container>
+                    <MenuComponent />
+                    <Content>
+                        <Routes>
+                            <Route path={routes.home.url} element={<HomePage />} />
+                            <Route path={routes.whatWeDo.url} element={<WhatWeDoPage />} />
+                            <Route path={routes.nextEdition.url} element={<NextEditionPage />} />
+                            <Route path={routes.agenda.url} element={<AgendaPage />} />
+                            <Route path={routes.aboutUs.url} element={<AboutUsPage />} />
+                            <Route path={routes.extraInfo.url} element={<ExtraInfoPage />} />
+                            <Route path={routes.mentors.url} element={<MentorPage />} />
+                            <Route path={routes.material.url} element={<MaterialPage />} />
+                        </Routes>
+                    </Content>
+                </Container>
+            </React.Fragment>
+        </HashRouter>
+    );
+};
