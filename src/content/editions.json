@@ -1,46 +1,37 @@
 [
     {
-        "datestr": "2025-09-13",
-        "urlNr": 5364,
-        "where": "coderdojo",
-        "special": "Voorhof"
+        "datestr": "2026-01-10",
+        "urlNr": 6007,
+        "where": "Voorhof"
     },
     {
-        "datestr": "2025-09-27",
-        "urlNr": 4272,
-        "where": "coderdojo"
+        "datestr": "2026-01-24",
+        "urlNr": 5783,
+        "where": "DOK in OPEN"
     },
     {
-        "datestr": "2025-10-11",
-        "urlNr": 5395,
-        "where": "coderdojo",
-        "special": "Voorhof"
+        "datestr": "2026-02-14",
+        "urlNr": 6008,
+        "where": "voorhof"
     },
     {
-        "datestr": "2025-10-25",
-        "urlNr": 4273,
-        "where": "coderdojo"
+        "datestr": "2026-02-28",
+        "urlNr": 5989,
+        "where": "DOK in OPEN"
     },
     {
-        "datestr": "2025-11-08",
-        "urlNr": 5496,
-        "where": "coderdojo",
-        "special": "Voorhof"
+        "datestr": "2026-03-14",
+        "urlNr": 6009,
+        "where": "voorhof"
     },
     {
-        "datestr": "2025-11-22",
-        "urlNr": 4274,
-        "where": "coderdojo"
+        "datestr": "2026-03-28",
+        "urlNr": 5990,
+        "where": "DOK in OPEN"
     },
     {
-        "datestr": "2025-12-06",
-        "urlNr": 5497,
-        "where": "coderdojo",
-        "special": "Voorhof"
-    },
-    {
-        "datestr": "2025-12-20",
-        "urlNr": 4275,
-        "where": "coderdojo"
+        "datestr": "2026-04-25",
+        "urlNr": 5991,
+        "where": "DOK in OPEN"
     }
 ]
