@@ -14,8 +14,8 @@
         "styled-components": "^4.4.1"
     },
     "scripts": {
-        "dev": "vite",
-        "start": "vite",
+        "dev": "vite --host",
+        "start": "vite --host",
         "build": "vite build",
         "preview": "vite preview",
         "predeploy": "npm run build && cp CNAME ./dist",
