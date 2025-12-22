@@ -1,7 +1,5 @@
-import styled from 'styled-components';
+import React from 'react';
 
-import { whitespace } from '../style/variables';
-
-export const Page = styled.article`
-    padding: ${whitespace.n2};
-`;
+export const Page = ({ children }) => {
+    return <article className="page">{children}</article>;
+};

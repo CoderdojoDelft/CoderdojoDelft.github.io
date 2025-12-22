@@ -13,35 +13,33 @@ import { NextEditionPage } from './page/NextEditionPage';
 import { WhatWeDoPage } from './page/WhatWeDoPage';
 import { MaterialPage } from './page/MaterialPage';
 import { routes } from './routes';
-import { GlobalStyle } from './style/global-style';
+import './style/main.css';
 import { AgendaPage } from './page/AgendaPage';
 
 export const App = () => {
     return (
         <HashRouter>
-            <React.Fragment>
-                <GlobalStyle />
-                <Container>
-                    <Content>
-                        <HeaderComponent />
-                    </Content>
-                </Container>
-                <Container>
-                    <MenuComponent />
-                    <Content>
-                        <Routes>
-                            <Route path={routes.home.url} element={<HomePage />} />
-                            <Route path={routes.whatWeDo.url} element={<WhatWeDoPage />} />
-                            <Route path={routes.nextEdition.url} element={<NextEditionPage />} />
-                            <Route path={routes.agenda.url} element={<AgendaPage />} />
-                            <Route path={routes.aboutUs.url} element={<AboutUsPage />} />
-                            <Route path={routes.extraInfo.url} element={<ExtraInfoPage />} />
-                            <Route path={routes.mentors.url} element={<MentorPage />} />
-                            <Route path={routes.material.url} element={<MaterialPage />} />
-                        </Routes>
-                    </Content>
-                </Container>
-            </React.Fragment>
+            <Container>
+                <Content>
+                    <HeaderComponent />
+                </Content>
+            </Container>
+            <Container>
+                <MenuComponent />
+                <Content>
+                    <Routes>
+                        <Route path={routes.home.url} element={<HomePage />} />
+                        <Route path={routes.whatWeDo.url} element={<WhatWeDoPage />} />
+                        <Route path={routes.nextEdition.url} element={<NextEditionPage />} />
+                        <Route path={routes.agenda.url} element={<AgendaPage />} />
+                        <Route path={routes.aboutUs.url} element={<AboutUsPage />} />
+                        <Route path={routes.extraInfo.url} element={<ExtraInfoPage />} />
+                        <Route path={routes.mentors.url} element={<MentorPage />} />
+                        <Route path={routes.material.url} element={<MaterialPage />} />
+                    </Routes>
+                </Content>
+            </Container>
         </HashRouter>
     );
 };
+
