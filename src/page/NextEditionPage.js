@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 import { PageTitle } from '../element/PageTitle';
 import { Page } from '../element/Page';
 import { PageBody } from '../element/PageBody';
-import { nextEdition } from '../content/editions';
+import { nextEditionLocation } from '../content/editions';
+import { nextEditions } from '../content/editions';
 import { routes } from '../routes';
 
 export class NextEditionPage extends Component {
@@ -18,37 +19,40 @@ export class NextEditionPage extends Component {
     }
 
     dojos() {
+
+    const inOpen = nextEditionLocation["DOK in OPEN"];
+    const voorhof = nextEditionLocation["DOK Voorhof"];
+    const tanthof = nextEditionLocation["DOK Tanthof"];
+
         return (
             <React.Fragment>
-                <h2>{nextEdition.displayDate} - {nextEdition.where}</h2>
 
                 <br></br>
-
                 <div className="cards">
                     <div className="card">
-                        <h3>DOK in OPEN / Centrum</h3>
-                        <p>DATE 14.00 - 16.00</p>
-                        <p>Inschrijven vanaf</p>
+                        <h3>{inOpen.where}</h3>
+                        <p>{inOpen.displayDate}<br></br>14.00 - 16.00</p>
+                        <p><a href={inOpen.registrationUrl} target="_blank" rel="noopener noreferrer">Inschrijven</a></p>
                     </div>
 
                     <div className="card">
-                        <h3>DOK Voorhof</h3>
-                        <p>DATE 14.00 - 16.00</p>
-                        <p>Inschrijven vanaf</p>
+                        <h3>{voorhof.where}</h3>
+                        <p>{voorhof.displayDate}<br></br>14.00 - 16.00</p>
+                        <p><a href={voorhof.registrationUrl} target="_blank" rel="noopener noreferrer">Inschrijven</a></p>
                     </div>
 
                     <div className="card">
-                        <h3>DOK Tanthof</h3>
-                        <p>DATE 10.30 - 12.30</p>
-                        <p>Inschrijven vanaf</p>
+                        <h3>{tanthof.where}</h3>
+                        <p>{tanthof.displayDate}<br></br>10.30 - 12.30</p>
+                        <p><a href={tanthof.registrationUrl} target="_blank" rel="noopener noreferrer">Inschrijven</a></p>
                     </div>
                 </div>
 
 
 
                 <br></br>
-                <p>De volgende CoderDojo in Delft wordt georganiseerd op {nextEdition.displayDate} in {nextEdition.where}.</p>
-                <p>De link om in te schrijven vind je onder aan deze pagina. De inschrijving gaat open op {nextEdition.registrationStart} om 12:00 (’s middags) –  Wees er snel bij!</p>
+                {/* <p>De volgende CoderDojo in Delft wordt georganiseerd op {nextEdition.displayDate} in {nextEdition.where}.</p> */}
+                {/* <p>De link om in te schrijven vind je onder aan deze pagina. De inschrijving gaat open op {nextEdition.registrationStart} om 12:00 (’s middags) –  Wees er snel bij!</p> */}
                 <p>Voor een overzicht van de komende CoderDojo's, kijk <Link to={routes.agenda.url}>hier</Link>.</p>
                 <h3>Wat gaan we doen?</h3>
                 <ul>
@@ -76,7 +80,7 @@ export class NextEditionPage extends Component {
                 <p>We hebben een beperkt aantal laptops te leen. Laat het ons via het inschrijfformulier weten als je daarvan gebruik wilt maken.</p>
                 <h3>Inschrijven</h3>
                 <p>Voor deze Dojo hebben we maar beperkt plek! Er is ruimte voor een maximaal aantal deelnemers. Elke deelnemer heeft zijn eigen ticket nodig, en je kunt maximaal twee tickets reserveren. Als de plekken voor deze CoderDojo bezet zijn, kun je je naam op de wachtlijst zetten, we nemen dan contact met je op zodra er een plek vrijkomt. Laat het ons dus ook weten als je verhinderd bent.</p>
-                <p>Vanaf januari 2020 wordt de inschrijving verzorgt door DOK. <a href={nextEdition.registrationUrl} target="_blank" rel="noopener noreferrer">Klik hier</a> om naar de inschrijvingspagina te gaan.</p>
+                {/* <p>Vanaf januari 2020 wordt de inschrijving verzorgt door DOK. <a href={nextEdition.registrationUrl} target="_blank" rel="noopener noreferrer">Klik hier</a> om naar de inschrijvingspagina te gaan.</p> */}
                 <p><i>Is de Dojo vol, of kun je niet op die dag? Je kunt ook kijken of er plek is bij een CoderDojo in de buurt: <a href="http://www.coderdojo-zoetermeer.nl" target="_blank" rel="noopener noreferrer">CoderDojo Zoetermeer</a>,  <a href="http://www.coderdojo-denhaag.nl" target="_blank" rel="noopener noreferrer">CoderDojo Den Haag</a> of <a href="http://www.coderdojo-rotterdam.nl" target="_blank" rel="noopener noreferrer">CoderDojo Rotterdam</a>.</i></p>
             </React.Fragment>
         );
@@ -85,7 +89,7 @@ export class NextEditionPage extends Component {
     render() {
         let content;
 
-        if (nextEdition) {
+        if (nextEditionLocation) {
             content = this.dojos();
         } else {
             content = this.noDojos();
