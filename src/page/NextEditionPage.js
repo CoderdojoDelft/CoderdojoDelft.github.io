@@ -5,7 +5,6 @@ import { PageTitle } from '../element/PageTitle';
 import { Page } from '../element/Page';
 import { PageBody } from '../element/PageBody';
 import { nextEditionLocation } from '../content/editions';
-import { nextEditions } from '../content/editions';
 import { routes } from '../routes';
 
 export class NextEditionPage extends Component {
