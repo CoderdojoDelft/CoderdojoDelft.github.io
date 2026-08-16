@@ -20,7 +20,33 @@ export class NextEditionPage extends Component {
     dojos() {
         return (
             <React.Fragment>
-                <h2>{nextEdition.displayDate}</h2>
+                <h2>{nextEdition.displayDate} - {nextEdition.where}</h2>
+
+                <br></br>
+
+                <div className="cards">
+                    <div className="card">
+                        <h3>DOK in OPEN / Centrum</h3>
+                        <p>DATE 14.00 - 16.00</p>
+                        <p>Inschrijven vanaf</p>
+                    </div>
+
+                    <div className="card">
+                        <h3>DOK Voorhof</h3>
+                        <p>DATE 14.00 - 16.00</p>
+                        <p>Inschrijven vanaf</p>
+                    </div>
+
+                    <div className="card">
+                        <h3>DOK Tanthof</h3>
+                        <p>DATE 10.30 - 12.30</p>
+                        <p>Inschrijven vanaf</p>
+                    </div>
+                </div>
+
+
+
+                <br></br>
                 <p>De volgende CoderDojo in Delft wordt georganiseerd op {nextEdition.displayDate} in {nextEdition.where}.</p>
                 <p>De link om in te schrijven vind je onder aan deze pagina. De inschrijving gaat open op {nextEdition.registrationStart} om 12:00 (’s middags) –  Wees er snel bij!</p>
                 <p>Voor een overzicht van de komende CoderDojo's, kijk <Link to={routes.agenda.url}>hier</Link>.</p>
