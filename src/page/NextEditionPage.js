@@ -23,6 +23,10 @@ export class NextEditionPage extends Component {
     const voorhof = nextEditionLocation["DOK Voorhof"];
     const tanthof = nextEditionLocation["DOK Tanthof"];
 
+    if (!inOpen && !voorhof && !tanthof) {
+        return this.noDojos();
+    }
+
         return (
             <React.Fragment>
                 
@@ -51,7 +55,7 @@ export class NextEditionPage extends Component {
                     </div>
                 </div>
                 <br></br>
-                <p>De inschrijving van elke CoderDojo gaat 2 weken van te voren open om 12:00 's middags. - Wees er snel bij!</p>
+                <p>De inschrijving van elke CoderDojo gaat 2 weken van tevoren open om 12:00 's middags. Wees er snel bij!</p>
                 <p>Een overzicht van de geplande CoderDojo's voor de komende maanden, vind je <Link to={routes.agenda.url}>hier</Link>.</p>
                 <h3>Wat gaan we doen?</h3>
                 <ul>
@@ -68,7 +72,7 @@ export class NextEditionPage extends Component {
                 <h3>Ouders</h3>
                 <p>We vinden het erg fijn als ouders actief meehelpen, zeker voor de jongere kinderen (minimaal 8 jaar). Ouders kunnen ondertussen ook gebruik maken van de faciliteiten van de bibliotheek. Er is beperkt zitplek voor ouders aan de tafels van de kinderen.</p>
                 <h3>Laptops & accounts</h3>
-                <p>Wij hebben voor iedereen laptops beschikbaar en klaarstaan voor gebruik. Natuurlijk mag je ook je eigen laptop meenemen. Deze moet minimaal beschikken over WiFi en een browser (Chrome / Firefox).Vergeet ook je oplader niet. Wij kunnen helaas niet alle kinderen helpen om alles werkend te krijgen dus wij vertrouwen erop dat alles werkt bij binnenkomst! Zorg er ook voor dat er een e-mailadres beschikbaar is om een account aan te kunnen maken voor online programma’s.</p>
+                <p>Wij hebben voor iedereen laptops beschikbaar en klaarstaan voor gebruik. Natuurlijk mag je ook je eigen laptop meenemen. Deze moet minimaal beschikken over WiFi en een browser (Chrome / Firefox). Vergeet ook je oplader niet. Wij kunnen helaas niet alle kinderen helpen om alles werkend te krijgen dus wij vertrouwen erop dat alles werkt bij binnenkomst! Zorg er ook voor dat er een e-mailadres beschikbaar is om een account aan te kunnen maken voor online programma’s.</p>
                 <h3>Wat moet ik meenemen?</h3>
                 <ul>
                     <li>Een 3-uurtje &#8211; wij zorgen voor een iets te drinken</li>

@@ -33,7 +33,7 @@ export class AgendaPage extends Component {
                         })}
                     </ol>
                     <br></br>
-                    <p>Je kunt je vanaf de zondag 2 weken voor de Dojo <Link to="https://www.dok.info/jeugdjongeren/Jeugd9-14jr/coderdojo.html">hier</Link> aanmelden.</p>
+                    <p>Je kunt je vanaf de zondag 2 weken voor de Dojo <a href="https://www.dok.info/jeugdjongeren/Jeugd9-14jr/coderdojo.html" target="_blank" rel="noopener noreferrer">hier</a> aanmelden.</p>
                 </PageBody>
             </Page>
         );

@@ -4,18 +4,26 @@ import { Link } from 'react-router-dom';
 import { Page } from '../element/Page';
 import { PageBody } from '../element/PageBody';
 import { PageTitle } from '../element/PageTitle';
-import { nextEdition } from '../content/editions';
+import { nextEditionLocation } from '../content/editions';
 import { routes } from '../routes';
 
 export class HomePage extends Component {
     render() {
         let upcoming;
-        if (nextEdition) {
+            const inOpen = nextEditionLocation["DOK in OPEN"];
+            const voorhof = nextEditionLocation["DOK Voorhof"];
+            const tanthof = nextEditionLocation["DOK Tanthof"];
+        if (inOpen || voorhof || tanthof) {
             upcoming = (
                 <React.Fragment>
-                    <p>We organiseren de volgende CoderDojo op:</p>
-                    <p><strong>{nextEdition.displayDate} in {nextEdition.where}</strong></p>
-                    <p>Kijk op onze pagina <Link to={routes.nextEdition.url}>‘Volgende editie’</Link> voor meer informatie over de komende CoderDojo!</p>
+                    <p>We organiseren de volgende CoderDojo's op:</p>
+                    <ol>
+                        {inOpen && <li><strong>{inOpen.where}: {inOpen.displayDate}</strong></li>}
+                        {voorhof && <li><strong>{voorhof.where}: {voorhof.displayDate}</strong></li>}
+                        {tanthof && <li><strong>{tanthof.where}: {tanthof.displayDate}</strong></li>}
+                    </ol>
+                    <br></br>
+                    <p>Kijk op onze pagina <Link to={routes.nextEdition.url}>‘Volgende editie’</Link> voor meer informatie over de komende CoderDojo's!</p>
                 </React.Fragment>
             );
         }
