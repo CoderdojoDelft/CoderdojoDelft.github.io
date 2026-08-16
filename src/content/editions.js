@@ -43,5 +43,3 @@ export let nextEditionLocation = {
     "DOK Voorhof": nextEditions.find(e => e.where === "DOK Voorhof"),
     "DOK Tanthof": nextEditions.find(e => e.where === "DOK Tanthof")
 };
-
-export let nextEdition = ['dit gaat nog weg']
