@@ -38,4 +38,8 @@ export let nextEditions = (editions
     (a, b) => a.date.getTime() - b.date.getTime()
 );
 
-export let nextEdition = nextEditions.length > 0 && nextEditions[0]
+export let nextEditionLocation = {
+    "DOK in OPEN": nextEditions.find(e => e.where === "DOK in OPEN"),
+    "DOK Voorhof": nextEditions.find(e => e.where === "DOK Voorhof"),
+    "DOK Tanthof": nextEditions.find(e => e.where === "DOK Tanthof")
+};

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { PageTitle } from '../element/PageTitle';
 import { Page } from '../element/Page';
 import { PageBody } from '../element/PageBody';
-import { nextEdition } from '../content/editions';
+import { nextEditionLocation } from '../content/editions';
 import { routes } from '../routes';
 
 export class NextEditionPage extends Component {
@@ -18,12 +18,45 @@ export class NextEditionPage extends Component {
     }
 
     dojos() {
+
+    const inOpen = nextEditionLocation["DOK in OPEN"];
+    const voorhof = nextEditionLocation["DOK Voorhof"];
+    const tanthof = nextEditionLocation["DOK Tanthof"];
+
+    if (!inOpen && !voorhof && !tanthof) {
+        return this.noDojos();
+    }
+
         return (
             <React.Fragment>
-                <h2>{nextEdition.displayDate}</h2>
-                <p>De volgende CoderDojo in Delft wordt georganiseerd op {nextEdition.displayDate} in {nextEdition.where}.</p>
-                <p>De link om in te schrijven vind je onder aan deze pagina. De inschrijving gaat open op {nextEdition.registrationStart} om 12:00 (’s middags) –  Wees er snel bij!</p>
-                <p>Voor een overzicht van de komende CoderDojo's, kijk <Link to={routes.agenda.url}>hier</Link>.</p>
+                
+                <p>De volgende CoderDojo's in Delft worden georganiseerd op:</p>
+
+                <div className="cards">
+                    <div className="card">
+                        <h3>{inOpen.where}</h3>
+                        <p>Vesteplein 100</p>
+                        <p>{inOpen.displayDate}<br></br>14.00 - 16.00</p>
+                        <p><a href={inOpen.registrationUrl} target="_blank" rel="noopener noreferrer">Inschrijven</a></p>
+                    </div>
+
+                    <div className="card">
+                        <h3>{voorhof.where}</h3>
+                        <p>Duke Ellingtonstraat 203</p>
+                        <p>{voorhof.displayDate}<br></br>14.00 - 16.00</p>
+                        <p><a href={voorhof.registrationUrl} target="_blank" rel="noopener noreferrer">Inschrijven</a></p>
+                    </div>
+
+                    <div className="card">
+                        <h3>{tanthof.where}</h3>
+                        <p>Dasstraat 6</p>
+                        <p>{tanthof.displayDate}<br></br>10.30 - 12.30</p>
+                        <p><a href={tanthof.registrationUrl} target="_blank" rel="noopener noreferrer">Inschrijven</a></p>
+                    </div>
+                </div>
+                <br></br>
+                <p>De inschrijving van elke CoderDojo gaat 2 weken van tevoren open om 12:00 's middags. Wees er snel bij!</p>
+                <p>Een overzicht van de geplande CoderDojo's voor de komende maanden, vind je <Link to={routes.agenda.url}>hier</Link>.</p>
                 <h3>Wat gaan we doen?</h3>
                 <ul>
                     <li>Scratch</li>
@@ -34,23 +67,21 @@ export class NextEditionPage extends Component {
                 </ul>
                 <p>Kortom, je mag komen met elk project waar je eerder aan gewerkt hebt. Ben je nog nooit geweest? Dan hebben we opdrachten voor je klaarliggen en helpen we je op weg. Maar je mag natuurlijk ook zelf iets verzinnen. Misschien kun je alvast een karakter tekenen voor in een spel dat je wilt maken, of een filmpje zoeken voor een website die je wilt maken.</p>
                 <p><Link to={routes.whatWeDo.url}>Hier</Link> vind je meer details over wat je op een CoderDojo kunt doen.</p>
-                <h3>Waar?</h3>
-                <p>De CoderDojo vindt plaats bij OPEN (Vesteplein 100).</p>
-                <h3>Hoe laat?</h3>
-                <p>De CoderDojo is van 14:00 tot 16:00 uur. In deze tijd kun je zelf lekker aan de slag. Aan het einde maken we een rondje, zodat je ook aan de anderen kunt laten zien wat je gemaakt hebt!</p>
+                <h3>Hoe</h3>
+                <p>Een CoderDojo duurt 2 uur. In deze tijd kun je zelf lekker aan de slag. Aan het einde maken we een rondje, zodat je ook aan de anderen kunt laten zien wat je gemaakt hebt!</p>
                 <h3>Ouders</h3>
                 <p>We vinden het erg fijn als ouders actief meehelpen, zeker voor de jongere kinderen (minimaal 8 jaar). Ouders kunnen ondertussen ook gebruik maken van de faciliteiten van de bibliotheek. Er is beperkt zitplek voor ouders aan de tafels van de kinderen.</p>
+                <h3>Laptops & accounts</h3>
+                <p>Wij hebben voor iedereen laptops beschikbaar en klaarstaan voor gebruik. Natuurlijk mag je ook je eigen laptop meenemen. Deze moet minimaal beschikken over WiFi en een browser (Chrome / Firefox). Vergeet ook je oplader niet. Wij kunnen helaas niet alle kinderen helpen om alles werkend te krijgen dus wij vertrouwen erop dat alles werkt bij binnenkomst! Zorg er ook voor dat er een e-mailadres beschikbaar is om een account aan te kunnen maken voor online programma’s.</p>
                 <h3>Wat moet ik meenemen?</h3>
                 <ul>
-                    <li>Een werkende laptop*</li>
-                    <li>Een 3-uurtje &#8211; wij zorgen voor een pakje drinken</li>
+                    <li>Een 3-uurtje &#8211; wij zorgen voor een iets te drinken</li>
                     <li>Een goed humeur!</li>
+                    <li>Optioneel: Eigen laptop</li>
                 </ul>
-                <p><em>*) Zorg dat je laptop minimaal over WiFi, een browser (Chrome / Firefox) beschikt. Vergeet ook je oplader niet. Wij kunnen helaas niet alle kinderen helpen om alles werkend te krijgen dus wij vertrouwen erop dat alles werkt bij binnenkomst! Zorg er ook voor dat er een e-mailadres beschikbaar is om een account aan te kunnen maken voor online programma’s.</em></p>
-                <p>We hebben een beperkt aantal laptops te leen. Laat het ons via het inschrijfformulier weten als je daarvan gebruik wilt maken.</p>
                 <h3>Inschrijven</h3>
-                <p>Voor deze Dojo hebben we maar beperkt plek! Er is ruimte voor een maximaal aantal deelnemers. Elke deelnemer heeft zijn eigen ticket nodig, en je kunt maximaal twee tickets reserveren. Als de plekken voor deze CoderDojo bezet zijn, kun je je naam op de wachtlijst zetten, we nemen dan contact met je op zodra er een plek vrijkomt. Laat het ons dus ook weten als je verhinderd bent.</p>
-                <p>Vanaf januari 2020 wordt de inschrijving verzorgt door DOK. <a href={nextEdition.registrationUrl} target="_blank" rel="noopener noreferrer">Klik hier</a> om naar de inschrijvingspagina te gaan.</p>
+                <p>Voor elke CoderDojo hebben we maar beperkt plek! Er is ruimte voor een maximaal aantal deelnemers. Elke deelnemer heeft zijn eigen ticket nodig, en je kunt maximaal twee tickets reserveren. Als de plekken voor deze CoderDojo bezet zijn, kun je je naam op de wachtlijst zetten, we nemen dan contact met je op zodra er een plek vrijkomt. Laat het ons dus ook weten als je verhinderd bent.</p>
+                <p>Een registratielink voor de komende CoderDojo's vind je bovenaan deze pagina bij de betreffende edities.</p>
                 <p><i>Is de Dojo vol, of kun je niet op die dag? Je kunt ook kijken of er plek is bij een CoderDojo in de buurt: <a href="http://www.coderdojo-zoetermeer.nl" target="_blank" rel="noopener noreferrer">CoderDojo Zoetermeer</a>,  <a href="http://www.coderdojo-denhaag.nl" target="_blank" rel="noopener noreferrer">CoderDojo Den Haag</a> of <a href="http://www.coderdojo-rotterdam.nl" target="_blank" rel="noopener noreferrer">CoderDojo Rotterdam</a>.</i></p>
             </React.Fragment>
         );
@@ -59,7 +90,7 @@ export class NextEditionPage extends Component {
     render() {
         let content;
 
-        if (nextEdition) {
+        if (nextEditionLocation) {
             content = this.dojos();
         } else {
             content = this.noDojos();
