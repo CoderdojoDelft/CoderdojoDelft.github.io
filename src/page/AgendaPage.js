@@ -15,7 +15,13 @@ export class AgendaPage extends Component {
                 <PageBody>
                     <h2>Komende Dojo's</h2>
                     <p>
-                        Coderdojo Delft wordt georganiseerd op de 4e zaterdag van de maand.
+                        Coderdojo Delft wordt georganiseerd op 3 verschillende locaties in Delft. De Dojo's worden georganiseerd op de volgende vaste dagen:
+                        <ol>
+                            <li>DOK in OPEN: 4e zaterdag van de maand van 14.00 tot 16.00</li>
+                            <li>DOK Voorhof: 2e zaterdag van de maand van 14.00 tot 16.00</li>
+                            <li>DOK Tanthof: 3e zaterdag van de maand van 10.30 tot 12.30</li>
+                        </ol>
+                    <br></br>
                         Af en toe wijken we hier vanaf als dit door feestdagen anders niet uitkomt - we organizeren soms ook Dojo's andere locaties.
                         In de zomervakantie komen de Dojo's mogelijk te vervallen.
                     </p>
@@ -27,7 +33,7 @@ export class AgendaPage extends Component {
                         })}
                     </ol>
                     <br></br>
-                    <p>Je kunt je vanaf de zondag 2 weken voor de Dojo <Link to={routes.nextEdition.url}>hier</Link> aanmelden.</p>
+                    <p>Je kunt je vanaf de zondag 2 weken voor de Dojo <Link to="https://www.dok.info/jeugdjongeren/Jeugd9-14jr/coderdojo.html">hier</Link> aanmelden.</p>
                 </PageBody>
             </Page>
         );
