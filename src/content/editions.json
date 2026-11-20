@@ -1,135 +1,5 @@
 [
     {
-        "datestr": "2026-01-10",
-        "urlNr": 6007,
-        "where": "DOK Voorhof"
-    },
-    {
-        "datestr": "2026-01-24",
-        "urlNr": 5783,
-        "where": "DOK in OPEN"
-    },
-    {
-        "datestr": "2026-02-14",
-        "urlNr": 6008,
-        "where": "DOK Voorhof"
-    },
-    {
-        "datestr": "2026-02-28",
-        "urlNr": 5989,
-        "where": "DOK in OPEN"
-    },
-    {
-        "datestr": "2026-03-14",
-        "urlNr": 6009,
-        "where": "DOK Voorhof"
-    },
-    {
-        "datestr": "2026-03-28",
-        "urlNr": 5990,
-        "where": "DOK in OPEN"
-    },
-    {
-        "datestr": "2026-04-11",
-        "urlNr": 999,
-        "where": "DOK Voorhof"
-    },
-    {
-        "datestr": "2026-04-25",
-        "urlNr": 5991,
-        "where": "DOK in OPEN"
-    },
-    {
-        "datestr": "2026-05-09",
-        "urlNr": 999,
-        "where": "DOK Voorhof"
-    },
-    {
-        "datestr": "2026-05-23",
-        "urlNr": 999,
-        "where": "DOK in OPEN"
-    },
-    {
-        "datestr": "2026-06-13",
-        "urlNr": "6529/coderdojo-dok-voorhof/13-06-2026",
-        "where": "DOK Voorhof"
-    },
-    {
-        "datestr": "2026-06-20",
-        "urlNr": "6689/coderdojo-dok-tanthof/20-06-2026",
-        "where": "DOK Tanthof"
-    },
-    {
-        "datestr": "2026-06-27",
-        "urlNr": "6491/coderdojo-dok-in-open/27-06-2026",
-        "where": "DOK in OPEN"
-    },
-    {
-        "datestr": "2026-07-11",
-        "urlNr": "7185/coderdojo-dok-voorhof/11-07-2026",
-        "where": "DOK Voorhof"
-    },
-    {
-        "datestr": "2026-07-18",
-        "urlNr": "999",
-        "where": "DOK Tanthof"
-    },
-    {
-        "datestr": "2026-07-25",
-        "urlNr": "7167/coderdojo-in-open-juli/25-07-2026",
-        "where": "DOK in OPEN"
-    },
-    {
-        "datestr": "2026-08-08",
-        "urlNr": 999,
-        "where": "DOK Voorhof"
-    },
-    {
-        "datestr": "2026-08-15",
-        "urlNr": "7194/coderdojo-dok-tanthof/15-08-2026",
-        "where": "DOK Tanthof"
-    },
-    {
-        "datestr": "2026-08-22",
-        "urlNr": "7168/coderdojo-in-open-augustus/22-08-2026",
-        "where": "DOK in OPEN"
-    },
-    {
-        "datestr": "2026-09-12",
-        "urlNr": "7187/coderdojo-dok-voorhof/12-09-2026",
-        "where": "DOK Voorhof"
-    },
-    {
-        "datestr": "2026-09-19",
-        "urlNr": "7195/coderdojo-dok-tanthof/19-09-2026",
-        "where": "DOK Tanthof"
-    },
-    {
-        "datestr": "2026-09-26",
-        "urlNr": "7169/coderdojo-in-open-september/26-09-2026",
-        "where": "DOK in OPEN"
-    },
-    {
-        "datestr": "2026-10-10",
-        "urlNr": 999,
-        "where": "DOK Voorhof"
-    },
-    {
-        "datestr": "2026-10-17",
-        "urlNr": "7196/coderdojo-dok-tanthof/17-10-2026",
-        "where": "DOK Tanthof"
-    },
-    {
-        "datestr": "2026-10-24",
-        "urlNr": "7170/coderdojo-in-open-oktober/24-10-2026",
-        "where": "DOK in OPEN"
-    },
-    {
-        "datestr": "2026-11-14",
-        "urlNr": 999,
-        "where": "DOK Voorhof"
-    },
-    {
         "datestr": "2026-11-21",
         "urlNr": "7197/coderdojo-dok-tanthof/21-11-2026",
         "where": "DOK Tanthof"
@@ -141,7 +11,7 @@
     },
     {
         "datestr": "2026-12-12",
-        "urlNr": 999,
+        "urlNr": "7343/coderdojo-dok-voorhof/12-12-2026",
         "where": "DOK Voorhof"
     },
     {
@@ -153,5 +23,180 @@
         "datestr": "2026-12-19",
         "urlNr": "7172/coderdojo-in-open-december/19-12-2026",
         "where": "DOK in OPEN"
+    },
+    {
+        "datestr": "2027-01-09",
+        "urlNr": 999,
+        "where": "DOK Voorhof"
+    },
+    {
+        "datestr": "2027-01-16",
+        "urlNr": 999,
+        "where": "DOK Tanthof"
+    },
+    {
+        "datestr": "2027-01-23",
+        "urlNr": 999,
+        "where": "DOK in OPEN"
+    },
+    {
+        "datestr": "2027-02-13",
+        "urlNr": 999,
+        "where": "DOK Voorhof"
+    },
+    {
+        "datestr": "2027-02-20",
+        "urlNr": 999,
+        "where": "DOK Tanthof"
+    },
+    {
+        "datestr": "2027-02-27",
+        "urlNr": 999,
+        "where": "DOK in OPEN"
+    },
+    {
+        "datestr": "2027-03-13",
+        "urlNr": 999,
+        "where": "DOK Voorhof"
+    },
+    {
+        "datestr": "2027-03-20",
+        "urlNr": 999,
+        "where": "DOK Tanthof"
+    },
+    {
+        "datestr": "2027-03-27",
+        "urlNr": 999,
+        "where": "DOK in OPEN"
+    },
+    {
+        "datestr": "2027-04-10",
+        "urlNr": 999,
+        "where": "DOK Voorhof"
+    },
+    {
+        "datestr": "2027-04-17",
+        "urlNr": 999,
+        "where": "DOK Tanthof"
+    },
+    {
+        "datestr": "2027-04-24",
+        "urlNr": 999,
+        "where": "DOK in OPEN"
+    },
+    {
+        "datestr": "2027-05-08",
+        "urlNr": 999,
+        "where": "DOK Voorhof"
+    },
+    {
+        "datestr": "2027-05-15",
+        "urlNr": 999,
+        "where": "DOK Tanthof"
+    },
+    {
+        "datestr": "2027-05-25",
+        "urlNr": 999,
+        "where": "DOK in OPEN"
+    },
+    {
+        "datestr": "2027-06-12",
+        "urlNr": 999,
+        "where": "DOK Voorhof"
+    },
+    {
+        "datestr": "2027-06-19",
+        "urlNr": 999,
+        "where": "DOK Tanthof"
+    },
+    {
+        "datestr": "2027-06-26",
+        "urlNr": 999,
+        "where": "DOK in OPEN"
+    },
+    {
+        "datestr": "2027-07-10",
+        "urlNr": 999,
+        "where": "DOK Voorhof"
+    },
+    {
+        "datestr": "2027-07-17",
+        "urlNr": 999,
+        "where": "DOK Tanthof"
+    },
+    {
+        "datestr": "2027-07-24",
+        "urlNr": 999,
+        "where": "DOK in OPEN"
+    },
+    {
+        "datestr": "2027-08-14",
+        "urlNr": 999,
+        "where": "DOK Voorhof"
+    },
+    {
+        "datestr": "2027-08-21",
+        "urlNr": 999,
+        "where": "DOK Tanthof"
+    },
+    {
+        "datestr": "2027-08-28",
+        "urlNr": 999,
+        "where": "DOK in OPEN"
+    },
+    {
+        "datestr": "2027-09-11",
+        "urlNr": 999,
+        "where": "DOK Voorhof"
+    },
+    {
+        "datestr": "2027-09-18",
+        "urlNr": 999,
+        "where": "DOK Tanthof"
+    },
+    {
+        "datestr": "2027-09-25",
+        "urlNr": 999,
+        "where": "DOK in OPEN"
+    },
+    {
+        "datestr": "2027-10-09",
+        "urlNr": 999,
+        "where": "DOK Voorhof"
+    },
+    {
+        "datestr": "2027-10-16",
+        "urlNr": 999,
+        "where": "DOK Tanthof"
+    },
+    {
+        "datestr": "2027-10-23",
+        "urlNr": 999,
+        "where": "DOK in OPEN"
+    },
+    {
+        "datestr": "2027-11-13",
+        "urlNr": 999,
+        "where": "DOK Voorhof"
+    },
+    {
+        "datestr": "2027-11-20",
+        "urlNr": 999,
+        "where": "DOK Tanthof"
+    },
+    {
+        "datestr": "2027-11-27",
+        "urlNr": 999,
+        "where": "DOK in OPEN"
+    },
+    {
+        "datestr": "2027-12-11",
+        "urlNr": 999,
+        "where": "DOK Voorhof"
+    },
+    {
+        "datestr": "2027-12-18",
+        "urlNr": 999,
+        "where": "DOK Tanthof"
     }
 ]
